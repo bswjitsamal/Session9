@@ -1,0 +1,158 @@
+2015-05-18 14:08:56,332 INFO  [Log] Openign the browser with the given URL 
+2015-05-18 14:08:56,716 INFO  [Log] **************************************************************************************** 
+2015-05-18 14:08:56,716 INFO  [Log] **************************************************************************************** 
+2015-05-18 14:08:56,716 INFO  [Log]                                sTestCaseName                                        
+2015-05-18 14:08:56,716 INFO  [Log] **************************************************************************************** 
+2015-05-18 14:08:56,716 INFO  [Log] **************************************************************************************** 
+2015-05-18 14:08:56,926 INFO  [Log] Clicking on SignIn link 
+2015-05-18 14:08:59,582 INFO  [Log] Entering an email to register 
+2015-05-18 14:08:59,602 INFO  [Log] It is a new Email 
+2015-05-18 14:09:00,058 INFO  [Log] Clicking on Register button 
+2015-05-18 14:09:01,904 INFO  [Log] Clicked on Title radio button 
+2015-05-18 14:09:02,104 INFO  [Log] Enterd first name in the text field 
+2015-05-18 14:09:02,804 INFO  [Log] Enterd last name in the text field 
+2015-05-18 14:09:02,994 INFO  [Log] Enterd password in the text field 
+2015-05-18 14:09:03,687 INFO  [Log] Selecting days for Date of birth form the Dropdown 
+2015-05-18 14:09:34,587 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
+2015-05-18 14:10:05,437 INFO  [Log] Selecting Years for Date of birth form the Dropdown 
+2015-05-18 14:10:05,774 INFO  [Log] Entering company name for shipping details 
+2015-05-18 14:10:05,973 INFO  [Log] Entering address1 for shipping details 
+2015-05-18 14:10:06,153 INFO  [Log] Entering address2 for shipping details 
+2015-05-18 14:10:06,335 INFO  [Log] Entering city for shipping details 
+2015-05-18 14:10:06,987 INFO  [Log] Entering state for shipping details 
+2015-05-18 14:10:07,167 INFO  [Log] Entering zip code for shipping details 
+2015-05-18 14:10:07,567 INFO  [Log] Entering country for shipping details 
+2015-05-18 14:10:07,719 INFO  [Log] Entering Mobile Number for shipping details 
+2015-05-18 14:10:07,909 INFO  [Log] Entering alias address for shipping details 
+2015-05-18 14:10:10,631 INFO  [Log] Clicking on Register button 
+2015-05-18 14:10:13,305 INFO  [Log] Logout form the application 
+2015-05-18 14:10:13,305 INFO  [Log] SignOutAction perform successfully 
+2015-05-18 14:10:15,271 INFO  [Log] Click action is perfromed on My Account link 
+2015-05-18 14:10:15,565 INFO  [Log]  entered in UserName text box 
+2015-05-18 14:10:15,727 INFO  [Log]  entered in Password text box 
+2015-05-18 14:10:17,831 INFO  [Log] Click action is performed on Submit button 
+2015-05-18 14:10:18,839 INFO  [Log] Login successfully 
+2015-05-18 14:10:18,839 INFO  [Log] SignInAction performed succesfully 
+2015-05-18 14:10:19,554 INFO  [Log] Closing the browser 
+2015-05-20 16:34:28,297 INFO  [Log] Openign the browser with the given URL 
+2015-05-20 16:34:29,184 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:34:29,184 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:34:29,184 INFO  [Log]                                sTestCaseName                                        
+2015-05-20 16:34:29,184 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:34:29,184 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:34:29,541 INFO  [Log] Clicking on SignIn link 
+2015-05-20 16:34:32,178 INFO  [Log] Entering an email to register 
+2015-05-20 16:34:32,730 INFO  [Log] Clicking on Register button 
+2015-05-20 16:34:34,721 INFO  [Log] Clicked on Title radio button 
+2015-05-20 16:34:34,901 INFO  [Log] Enterd first name in the text field 
+2015-05-20 16:34:35,701 INFO  [Log] Enterd last name in the text field 
+2015-05-20 16:34:35,873 INFO  [Log] Enterd password in the text field 
+2015-05-20 16:34:36,531 INFO  [Log] Selecting days for Date of birth form the Dropdown 
+2015-05-20 16:35:07,314 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
+2015-05-20 16:35:21,764 INFO  [Log] SignUpAction dose not perform successfully 
+2015-05-20 16:35:22,833 INFO  [Log] SignOut button element is not found 
+2015-05-20 16:35:22,833 INFO  [Log] SignOutAction dose not perform successfully 
+2015-05-20 16:35:22,833 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:22,833 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:22,833 INFO  [Log]                                sTestCaseName                                        
+2015-05-20 16:35:22,833 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:22,833 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:23,844 INFO  [Log] SignUpAction dose not perform successfully 
+2015-05-20 16:35:24,866 INFO  [Log] SignOut button element is not found 
+2015-05-20 16:35:24,866 INFO  [Log] SignOutAction dose not perform successfully 
+2015-05-20 16:35:24,905 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:24,905 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:24,905 INFO  [Log]                                sTestCaseName                                        
+2015-05-20 16:35:24,905 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:24,905 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:25,898 INFO  [Log] SignUpAction dose not perform successfully 
+2015-05-20 16:35:26,901 INFO  [Log] SignOut button element is not found 
+2015-05-20 16:35:26,901 INFO  [Log] SignOutAction dose not perform successfully 
+2015-05-20 16:35:26,922 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:26,923 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:26,923 INFO  [Log]                                sTestCaseName                                        
+2015-05-20 16:35:26,923 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:26,923 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:27,923 INFO  [Log] SignUpAction dose not perform successfully 
+2015-05-20 16:35:28,936 INFO  [Log] SignOut button element is not found 
+2015-05-20 16:35:28,936 INFO  [Log] SignOutAction dose not perform successfully 
+2015-05-20 16:35:28,946 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:28,946 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:28,946 INFO  [Log]                                sTestCaseName                                        
+2015-05-20 16:35:28,946 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:28,946 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:29,958 INFO  [Log] SignUpAction dose not perform successfully 
+2015-05-20 16:35:30,969 INFO  [Log] SignOut button element is not found 
+2015-05-20 16:35:30,969 INFO  [Log] SignOutAction dose not perform successfully 
+2015-05-20 16:35:30,979 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:30,979 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:30,979 INFO  [Log]                                sTestCaseName                                        
+2015-05-20 16:35:30,979 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:30,979 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:35:31,983 INFO  [Log] SignUpAction dose not perform successfully 
+2015-05-20 16:35:33,005 INFO  [Log] SignOut button element is not found 
+2015-05-20 16:35:33,005 INFO  [Log] SignOutAction dose not perform successfully 
+2015-05-20 16:35:34,031 INFO  [Log] SignIn button element is not found 
+2015-05-20 16:35:34,031 INFO  [Log] SignInAction dose not perform succesfully 
+2015-05-20 16:35:35,276 INFO  [Log] closing browser is not happening 
+2015-05-20 16:50:17,530 INFO  [Log] Openign the browser with the given URL 
+2015-05-20 16:50:18,134 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:50:18,134 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:50:18,134 INFO  [Log]                                sTestCaseName                                        
+2015-05-20 16:50:18,134 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:50:18,134 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:50:18,418 INFO  [Log] Clicking on SignIn link 
+2015-05-20 16:50:22,466 INFO  [Log] Entering an email to register 
+2015-05-20 16:50:22,926 INFO  [Log] Clicking on Register button 
+2015-05-20 16:50:24,968 INFO  [Log] Clicked on Title radio button 
+2015-05-20 16:50:25,158 INFO  [Log] Enterd first name in the text field 
+2015-05-20 16:50:25,880 INFO  [Log] Enterd last name in the text field 
+2015-05-20 16:50:26,074 INFO  [Log] Enterd password in the text field 
+2015-05-20 16:50:26,698 INFO  [Log] Selecting days for Date of birth form the Dropdown 
+2015-05-20 16:50:57,488 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
+2015-05-20 16:51:06,365 INFO  [Log] SignUpAction dose not perform successfully 
+2015-05-20 16:51:07,406 INFO  [Log] SignOut button element is not found 
+2015-05-20 16:51:07,406 INFO  [Log] SignOutAction dose not perform successfully 
+2015-05-20 16:51:07,427 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:07,427 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:07,427 INFO  [Log]                                sTestCaseName                                        
+2015-05-20 16:51:07,427 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:07,427 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:08,442 INFO  [Log] SignUpAction dose not perform successfully 
+2015-05-20 16:51:09,453 INFO  [Log] SignOut button element is not found 
+2015-05-20 16:51:09,453 INFO  [Log] SignOutAction dose not perform successfully 
+2015-05-20 16:51:09,463 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:09,463 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:09,463 INFO  [Log]                                sTestCaseName                                        
+2015-05-20 16:51:09,463 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:09,463 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:10,469 INFO  [Log] SignUpAction dose not perform successfully 
+2015-05-20 16:51:11,480 INFO  [Log] SignOut button element is not found 
+2015-05-20 16:51:11,480 INFO  [Log] SignOutAction dose not perform successfully 
+2015-05-20 16:51:11,512 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:11,512 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:11,512 INFO  [Log]                                sTestCaseName                                        
+2015-05-20 16:51:11,512 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:11,512 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:12,529 INFO  [Log] SignUpAction dose not perform successfully 
+2015-05-20 16:51:13,540 INFO  [Log] SignOut button element is not found 
+2015-05-20 16:51:13,540 INFO  [Log] SignOutAction dose not perform successfully 
+2015-05-20 16:51:13,550 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:13,550 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:13,550 INFO  [Log]                                sTestCaseName                                        
+2015-05-20 16:51:13,550 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:13,550 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:14,572 INFO  [Log] SignUpAction dose not perform successfully 
+2015-05-20 16:51:15,596 INFO  [Log] SignOut button element is not found 
+2015-05-20 16:51:15,596 INFO  [Log] SignOutAction dose not perform successfully 
+2015-05-20 16:51:15,606 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:15,606 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:15,606 INFO  [Log]                                sTestCaseName                                        
+2015-05-20 16:51:15,606 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:15,606 INFO  [Log] **************************************************************************************** 
+2015-05-20 16:51:16,619 INFO  [Log] SignUpAction dose not perform successfully 
+2015-05-20 16:51:17,633 INFO  [Log] SignOut button element is not found 
+2015-05-20 16:51:17,633 INFO  [Log] SignOutAction dose not perform successfully 
+2015-05-20 16:51:18,647 INFO  [Log] SignIn button element is not found 
+2015-05-20 16:51:18,647 INFO  [Log] SignInAction dose not perform succesfully 
+2015-05-20 16:51:19,719 INFO  [Log] closing browser is not happening 

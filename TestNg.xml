@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestSuite1" verbose="3">
+
+	<test name="Test in FF">
+		<classes>
+			<class name="com.webtek.test.SanityTest" />
+		</classes>
+	</test>
+	
+	<!-- - <test name="TestSuite2">
+		<classes>
+			<class name="com.webtek.test.SanityTest1" />
+		</classes>
+	</test>
+-->
+
+</suite>

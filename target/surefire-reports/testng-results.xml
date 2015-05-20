@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on SignIn link]]>
+    </line>
+    <line>
+      <![CDATA[Entering an email to register]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Register button]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Title radio button]]>
+    </line>
+    <line>
+      <![CDATA[Enterd first name in the text field]]>
+    </line>
+    <line>
+      <![CDATA[Enterd last name in the text field]]>
+    </line>
+    <line>
+      <![CDATA[Enterd password in the text field]]>
+    </line>
+    <line>
+      <![CDATA[Selecting days for Date of birth form the Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Months for Date of birth form the Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Years for Date of birth form the Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Entering company name for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering address1 for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering address2 for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering city for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering state for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering zip code for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering country for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering Mobile Number for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering alias address for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Register button]]>
+    </line>
+    <line>
+      <![CDATA[Logout form the application]]>
+    </line>
+    <line>
+      <![CDATA[Click action is perfromed on My Account link]]>
+    </line>
+    <line>
+      <![CDATA[ entered in UserName text box]]>
+    </line>
+    <line>
+      <![CDATA[ entered in Password text box]]>
+    </line>
+    <line>
+      <![CDATA[Click action is performed on Submit button]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite1" duration-ms="82205" started-at="2015-05-18T08:38:56Z" finished-at="2015-05-18T08:40:18Z">
+    <groups>
+    </groups>
+    <test name="Test in FF" duration-ms="82205" started-at="2015-05-18T08:38:56Z" finished-at="2015-05-18T08:40:18Z">
+      <class name="com.webtek.test.SanityTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.webtek.test.SanityTest@1d251891]" name="SetUp" is-config="true" duration-ms="13009" started-at="2015-05-18T14:08:43Z" finished-at="2015-05-18T14:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="userSignUp()[pri:0, instance:com.webtek.test.SanityTest@1d251891]" name="userSignUp" duration-ms="76624" started-at="2015-05-18T14:08:56Z" finished-at="2015-05-18T14:10:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on SignIn link]]>
+            </line>
+            <line>
+              <![CDATA[Entering an email to register]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Register button]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Title radio button]]>
+            </line>
+            <line>
+              <![CDATA[Enterd first name in the text field]]>
+            </line>
+            <line>
+              <![CDATA[Enterd last name in the text field]]>
+            </line>
+            <line>
+              <![CDATA[Enterd password in the text field]]>
+            </line>
+            <line>
+              <![CDATA[Selecting days for Date of birth form the Dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Months for Date of birth form the Dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Years for Date of birth form the Dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Entering company name for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering address1 for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering address2 for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering city for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering state for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering zip code for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering country for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering Mobile Number for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering alias address for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Register button]]>
+            </line>
+            <line>
+              <![CDATA[Logout form the application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userSignUp -->
+        <test-method status="PASS" signature="signUser()[pri:0, instance:com.webtek.test.SanityTest@1d251891]" name="signUser" duration-ms="5534" started-at="2015-05-18T14:10:13Z" depends-on-methods="com.webtek.test.SanityTest.userSignUp" finished-at="2015-05-18T14:10:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Click action is perfromed on My Account link]]>
+            </line>
+            <line>
+              <![CDATA[ entered in UserName text box]]>
+            </line>
+            <line>
+              <![CDATA[ entered in Password text box]]>
+            </line>
+            <line>
+              <![CDATA[Click action is performed on Submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webtek.test.SanityTest@1d251891]" name="tearDown" is-config="true" duration-ms="655" started-at="2015-05-18T14:10:18Z" finished-at="2015-05-18T14:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webtek.test.SanityTest -->
+    </test> <!-- Test in FF -->
+  </suite> <!-- TestSuite1 -->
+</testng-results>

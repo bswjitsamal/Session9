@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="7" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="128207" started-at="2015-05-21T08:50:46Z" finished-at="2015-05-21T08:52:54Z">
+  <suite name="Default suite" duration-ms="32837" started-at="2015-05-21T13:15:12Z" finished-at="2015-05-21T13:15:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="128207" started-at="2015-05-21T08:50:46Z" finished-at="2015-05-21T08:52:54Z">
+    <test name="Default test" duration-ms="32837" started-at="2015-05-21T13:15:12Z" finished-at="2015-05-21T13:15:45Z">
       <class name="com.webtek.test.SanityTest2">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="SetUp" is-config="true" duration-ms="16002" started-at="2015-05-21T14:20:30Z" finished-at="2015-05-21T14:20:46Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="SetUp" is-config="true" duration-ms="14823" started-at="2015-05-21T18:44:57Z" finished-at="2015-05-21T18:45:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="37065" started-at="2015-05-21T14:20:46Z" data-provider="contactUs" finished-at="2015-05-21T14:21:23Z">
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="6447" started-at="2015-05-21T18:45:12Z" data-provider="contactUs" finished-at="2015-05-21T18:45:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Customer service]]>
+                <![CDATA[Customer service]]>
               </value>
             </param>
             <param index="1">
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="5632" started-at="2015-05-21T14:21:23Z" data-provider="contactUs" finished-at="2015-05-21T14:21:28Z">
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="4631" started-at="2015-05-21T18:45:19Z" data-provider="contactUs" finished-at="2015-05-21T18:45:23Z">
           <params>
             <param index="0">
               <value>
@@ -63,11 +63,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="35409" started-at="2015-05-21T14:21:28Z" data-provider="contactUs" finished-at="2015-05-21T14:22:04Z">
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="4984" started-at="2015-05-21T18:45:23Z" data-provider="contactUs" finished-at="2015-05-21T18:45:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Customer service]]>
+                <![CDATA[Customer service]]>
               </value>
             </param>
             <param index="1">
@@ -89,7 +89,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="5734" started-at="2015-05-21T14:22:04Z" data-provider="contactUs" finished-at="2015-05-21T14:22:10Z">
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="5303" started-at="2015-05-21T18:45:28Z" data-provider="contactUs" finished-at="2015-05-21T18:45:34Z">
           <params>
             <param index="0">
               <value>
@@ -115,11 +115,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="35545" started-at="2015-05-21T14:22:10Z" data-provider="contactUs" finished-at="2015-05-21T14:22:45Z">
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="4743" started-at="2015-05-21T18:45:34Z" data-provider="contactUs" finished-at="2015-05-21T18:45:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Customer service]]>
+                <![CDATA[Customer service]]>
               </value>
             </param>
             <param index="1">
@@ -141,7 +141,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="6518" started-at="2015-05-21T14:22:45Z" data-provider="contactUs" finished-at="2015-05-21T14:22:52Z">
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="4495" started-at="2015-05-21T18:45:38Z" data-provider="contactUs" finished-at="2015-05-21T18:45:43Z">
           <params>
             <param index="0">
               <value>
@@ -167,7 +167,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method status="FAIL" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="2102" started-at="2015-05-21T14:22:52Z" data-provider="contactUs" finished-at="2015-05-21T14:22:54Z">
+        <test-method status="FAIL" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="2021" started-at="2015-05-21T18:45:43Z" data-provider="contactUs" finished-at="2015-05-21T18:45:45Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -186,8 +186,8 @@
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
 	at org.openqa.selenium.support.ui.Select.escapeQuotes(Select.java:298)
-	at org.openqa.selenium.support.ui.Select.deselectByVisibleText(Select.java:286)
-	at com.webtek.action.ContactUsAction.execute(ContactUsAction.java:54)
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:113)
+	at com.webtek.action.ContactUsAction.execute(ContactUsAction.java:55)
 	at com.webtek.test.SanityTest2.contactUs(SanityTest2.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -219,7 +219,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactUs -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="tearDown" is-config="true" duration-ms="528" started-at="2015-05-21T14:22:54Z" finished-at="2015-05-21T14:22:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="tearDown" is-config="true" duration-ms="534" started-at="2015-05-21T18:45:45Z" finished-at="2015-05-21T18:45:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

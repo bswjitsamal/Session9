@@ -13,6 +13,12 @@
 			<class name="com.webtek.test.SanityTest1" />
 		</classes>
 	</test>
+	
+	<test name="TestSuite2">
+		<classes>
+			<class name="com.webtek.test.SanityTest2" />
+		</classes>
+	</test>
 
 
 </suite>

@@ -14,7 +14,8 @@ import com.webtek.utils.Log;
 
 public class ContactUsAction extends SelTestCase {
 
-	public static void execute(String DATA, String CUSTOMEREMAIL,String ORDER,String MESSAGE) {
+	public static void execute(String DATA, String CUSTOMEREMAIL, String ORDER,
+			String MESSAGE) {
 
 		/**
 		 * CLICK ON CONTACTUS LINK ON HOME PAGE TO REDIRECT
@@ -25,41 +26,38 @@ public class ContactUsAction extends SelTestCase {
 		/**
 		 * ASSERTING WE ARE ON CONTACT US PAGE
 		 */
-		
-		if(driver.getTitle().equals("Contact us - My Store")){
+
+		if (driver.getTitle().equals("Contact us - My Store")) {
 			Log.info("We are in contact us page");
-		}else{
+		} else {
 			Log.info("We are not in contact us page");
 		}
-		
-		
+
 		/**
-		 * IMPLICIT WAIT
+		 * EXPLICIT WAIT
 		 */
-		
-		
-		ExpectedCondition<Boolean> e = new ExpectedCondition<Boolean>(){
-			public Boolean apply (WebDriver driver){
-				//ContactUsPage.subjectHeading;
+
+		ExpectedCondition<Boolean> e = new ExpectedCondition<Boolean>() {
+			public Boolean apply(WebDriver driver) {
+				// ContactUsPage.subjectHeading;
 				driver.findElement(By.id("id_contact"));
 				return Boolean.valueOf(true);
-				
+
 			}
 		};
-		
-		WebDriverWait wait =  new WebDriverWait(driver,20);
+
+		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(e);
-		
-		
-		Select select =  new Select(ContactUsPage.subjectHeading);
-		select.deselectByVisibleText(DATA);
-		
+
+		Select select = new Select(ContactUsPage.subjectHeading);
+		select.selectByVisibleText(DATA);
+
 		ContactUsPage.email.sendKeys(CUSTOMEREMAIL);
-		
+
 		ContactUsPage.idOrder.sendKeys(ORDER);
-		
-		ContactUsPage.submitMessage.sendKeys(MESSAGE);
-		
+
+		ContactUsPage.message.sendKeys(MESSAGE);
+
 		ContactUsPage.submitMessage.click();
 
 	}

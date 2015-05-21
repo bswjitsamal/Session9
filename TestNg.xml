@@ -7,12 +7,12 @@
 			<class name="com.webtek.test.SanityTest" />
 		</classes>
 	</test>
-	
-	<!-- - <test name="TestSuite2">
+
+	<test name="TestSuite2">
 		<classes>
 			<class name="com.webtek.test.SanityTest1" />
 		</classes>
 	</test>
--->
+
 
 </suite>

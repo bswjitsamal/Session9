@@ -1,426 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="7" passed="7">
+<testng-results skipped="0" failed="1" total="7" passed="6">
   <reporter-output>
-    <line>
-      <![CDATA[Clicking on SignIn link]]>
-    </line>
-    <line>
-      <![CDATA[Entering an email to register]]>
-    </line>
-    <line>
-      <![CDATA[Clicking on Register button]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on Title radio button]]>
-    </line>
-    <line>
-      <![CDATA[Enterd first name in the text field]]>
-    </line>
-    <line>
-      <![CDATA[Enterd last name in the text field]]>
-    </line>
-    <line>
-      <![CDATA[Enterd password in the text field]]>
-    </line>
-    <line>
-      <![CDATA[Selecting days for Date of birth form the Dropdown]]>
-    </line>
-    <line>
-      <![CDATA[Selecting Months for Date of birth form the Dropdown]]>
-    </line>
   </reporter-output>
-  <suite name="TestSuite1" duration-ms="60837" started-at="2015-05-20T11:20:17Z" finished-at="2015-05-20T11:21:18Z">
+  <suite name="Default suite" duration-ms="128207" started-at="2015-05-21T08:50:46Z" finished-at="2015-05-21T08:52:54Z">
     <groups>
     </groups>
-    <test name="Test in FF" duration-ms="60837" started-at="2015-05-20T11:20:17Z" finished-at="2015-05-20T11:21:18Z">
-      <class name="com.webtek.test.SanityTest">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.webtek.test.SanityTest@1b40d5f0]" name="SetUp" is-config="true" duration-ms="19037" started-at="2015-05-20T16:49:58Z" finished-at="2015-05-20T16:50:17Z">
+    <test name="Default test" duration-ms="128207" started-at="2015-05-21T08:50:46Z" finished-at="2015-05-21T08:52:54Z">
+      <class name="com.webtek.test.SanityTest2">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="SetUp" is-config="true" duration-ms="16002" started-at="2015-05-21T14:20:30Z" finished-at="2015-05-21T14:20:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="userSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest@1b40d5f0]" name="userSignUp" duration-ms="49334" started-at="2015-05-20T16:50:18Z" data-provider="SignUpUser" finished-at="2015-05-20T16:51:07Z">
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="37065" started-at="2015-05-21T14:20:46Z" data-provider="contactUs" finished-at="2015-05-21T14:21:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[t123@t.com]]>
+                <![CDATA[Customer service]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[ABC]]>
+                <![CDATA[sampletest1@mail.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[DEF]]>
+                <![CDATA[order1]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[ABC]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[DEF]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[company]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Kalikapur]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Ruby]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[kolkata]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[00000]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[9748888983]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[kolkata]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Clicking on SignIn link]]>
-            </line>
-            <line>
-              <![CDATA[Entering an email to register]]>
-            </line>
-            <line>
-              <![CDATA[Clicking on Register button]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on Title radio button]]>
-            </line>
-            <line>
-              <![CDATA[Enterd first name in the text field]]>
-            </line>
-            <line>
-              <![CDATA[Enterd last name in the text field]]>
-            </line>
-            <line>
-              <![CDATA[Enterd password in the text field]]>
-            </line>
-            <line>
-              <![CDATA[Selecting days for Date of birth form the Dropdown]]>
-            </line>
-            <line>
-              <![CDATA[Selecting Months for Date of birth form the Dropdown]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- userSignUp -->
-        <test-method status="PASS" signature="userSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest@1b40d5f0]" name="userSignUp" duration-ms="2037" started-at="2015-05-20T16:51:07Z" data-provider="SignUpUser" finished-at="2015-05-20T16:51:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[t456@t.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[GHI]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[JKL]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[GHI]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[JKL]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[company]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[JadavPur]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Kestapur]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Kolkata]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[00000]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[9748888983]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[kolkata]]>
+                <![CDATA[This is for a sample testing. Please do not consider ]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userSignUp -->
-        <test-method status="PASS" signature="userSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest@1b40d5f0]" name="userSignUp" duration-ms="2027" started-at="2015-05-20T16:51:09Z" data-provider="SignUpUser" finished-at="2015-05-20T16:51:11Z">
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="5632" started-at="2015-05-21T14:21:23Z" data-provider="contactUs" finished-at="2015-05-21T14:21:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[t789@t.com]]>
+                <![CDATA[Webmaster]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[MNO]]>
+                <![CDATA[sampletest2@mail.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[PQR]]>
+                <![CDATA[order2]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[MNO]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[PQR]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[company]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[MukundaPur]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[NewTown]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Kolkata]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[00000]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[9748888983]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[kolkata]]>
+                <![CDATA[This is for a sample testing. Please do not consider ]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userSignUp -->
-        <test-method status="PASS" signature="userSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest@1b40d5f0]" name="userSignUp" duration-ms="2060" started-at="2015-05-20T16:51:11Z" data-provider="SignUpUser" finished-at="2015-05-20T16:51:13Z">
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="35409" started-at="2015-05-21T14:21:28Z" data-provider="contactUs" finished-at="2015-05-21T14:22:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[t910@t.com]]>
+                <![CDATA[Customer service]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[STU]]>
+                <![CDATA[sampletest3@mail.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[VWX]]>
+                <![CDATA[order3]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[STU]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[VWX]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[company]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Ultadanga]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[VIP]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Kolkata]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[00000]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[9748888983]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[kolkata]]>
+                <![CDATA[This is for a sample testing. Please do not consider ]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userSignUp -->
-        <test-method status="PASS" signature="userSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest@1b40d5f0]" name="userSignUp" duration-ms="2046" started-at="2015-05-20T16:51:13Z" data-provider="SignUpUser" finished-at="2015-05-20T16:51:15Z">
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="5734" started-at="2015-05-21T14:22:04Z" data-provider="contactUs" finished-at="2015-05-21T14:22:10Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[t112@t.com]]>
+                <![CDATA[Webmaster]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[YZ]]>
+                <![CDATA[sampletest4@mail.com]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[ABC]]>
+                <![CDATA[order4]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[YZ]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[ABC]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[company]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[BBD Bag]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Airport]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Kolkata]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[00000]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[9748888983]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[kolkata]]>
+                <![CDATA[This is for a sample testing. Please do not consider ]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userSignUp -->
-        <test-method status="PASS" signature="userSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest@1b40d5f0]" name="userSignUp" duration-ms="2037" started-at="2015-05-20T16:51:15Z" data-provider="SignUpUser" finished-at="2015-05-20T16:51:17Z">
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="35545" started-at="2015-05-21T14:22:10Z" data-provider="contactUs" finished-at="2015-05-21T14:22:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sampletest5@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[order5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is for a sample testing. Please do not consider ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="6518" started-at="2015-05-21T14:22:45Z" data-provider="contactUs" finished-at="2015-05-21T14:22:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Webmaster]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sampletest6@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[order6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is for a sample testing. Please do not consider ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method status="FAIL" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="contactUs" duration-ms="2102" started-at="2015-05-21T14:22:52Z" data-provider="contactUs" finished-at="2015-05-21T14:22:54Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -434,46 +181,49 @@
             <param index="3">
               <value is-null="true"/>
             </param>
-            <param index="4">
-              <value is-null="true"/>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
-            </param>
-            <param index="6">
-              <value is-null="true"/>
-            </param>
-            <param index="7">
-              <value is-null="true"/>
-            </param>
-            <param index="8">
-              <value is-null="true"/>
-            </param>
-            <param index="9">
-              <value is-null="true"/>
-            </param>
-            <param index="10">
-              <value is-null="true"/>
-            </param>
-            <param index="11">
-              <value is-null="true"/>
-            </param>
-            <param index="12">
-              <value is-null="true"/>
-            </param>
           </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.ui.Select.escapeQuotes(Select.java:298)
+	at org.openqa.selenium.support.ui.Select.deselectByVisibleText(Select.java:286)
+	at com.webtek.action.ContactUsAction.execute(ContactUsAction.java:54)
+	at com.webtek.test.SanityTest2.contactUs(SanityTest2.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userSignUp -->
-        <test-method status="PASS" signature="signUser()[pri:0, instance:com.webtek.test.SanityTest@1b40d5f0]" name="signUser" duration-ms="1004" started-at="2015-05-20T16:51:17Z" depends-on-methods="com.webtek.test.SanityTest.userSignUp" finished-at="2015-05-20T16:51:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signUser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webtek.test.SanityTest@1b40d5f0]" name="tearDown" is-config="true" duration-ms="1034" started-at="2015-05-20T16:51:18Z" finished-at="2015-05-20T16:51:19Z">
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webtek.test.SanityTest2@4ec6a292]" name="tearDown" is-config="true" duration-ms="528" started-at="2015-05-21T14:22:54Z" finished-at="2015-05-21T14:22:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.webtek.test.SanityTest -->
-    </test> <!-- Test in FF -->
-  </suite> <!-- TestSuite1 -->
+      </class> <!-- com.webtek.test.SanityTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

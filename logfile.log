@@ -156,3 +156,75 @@
 2015-05-20 16:51:18,647 INFO  [Log] SignIn button element is not found 
 2015-05-20 16:51:18,647 INFO  [Log] SignInAction dose not perform succesfully 
 2015-05-20 16:51:19,719 INFO  [Log] closing browser is not happening 
+2015-05-21 10:53:32,047 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 10:53:35,486 INFO  [Log] Closing the browser 
+2015-05-21 10:54:14,065 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 10:54:17,410 INFO  [Log] Closing the browser 
+2015-05-21 11:04:47,392 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 11:04:50,498 INFO  [Log] Closing the browser 
+2015-05-21 11:05:18,674 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 11:05:19,376 INFO  [Log] **************************************************************************************** 
+2015-05-21 11:05:19,376 INFO  [Log] **************************************************************************************** 
+2015-05-21 11:05:19,376 INFO  [Log]                                sTestCaseName                                        
+2015-05-21 11:05:19,376 INFO  [Log] **************************************************************************************** 
+2015-05-21 11:05:19,376 INFO  [Log] **************************************************************************************** 
+2015-05-21 11:05:19,602 INFO  [Log] Clicking on SignIn link 
+2015-05-21 11:05:22,340 INFO  [Log] Entering an email to register 
+2015-05-21 11:10:10,609 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 11:10:14,233 INFO  [Log] Closing the browser 
+2015-05-21 11:11:48,552 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 11:11:49,024 INFO  [Log] **************************************************************************************** 
+2015-05-21 11:11:49,024 INFO  [Log] **************************************************************************************** 
+2015-05-21 11:11:49,024 INFO  [Log]                                sTestCaseName                                        
+2015-05-21 11:11:49,024 INFO  [Log] **************************************************************************************** 
+2015-05-21 11:11:49,024 INFO  [Log] **************************************************************************************** 
+2015-05-21 11:11:49,278 INFO  [Log] Clicking on SignIn link 
+2015-05-21 11:12:27,985 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 11:12:31,450 INFO  [Log] Closing the browser 
+2015-05-21 11:13:24,810 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 11:13:25,335 INFO  [Log] **************************************************************************************** 
+2015-05-21 11:13:25,335 INFO  [Log] **************************************************************************************** 
+2015-05-21 11:13:25,335 INFO  [Log]                                sTestCaseName                                        
+2015-05-21 11:13:25,335 INFO  [Log] **************************************************************************************** 
+2015-05-21 11:13:25,335 INFO  [Log] **************************************************************************************** 
+2015-05-21 11:13:25,544 INFO  [Log] Clicking on SignIn link 
+2015-05-21 11:13:28,269 INFO  [Log] Entering an email to register 
+2015-05-21 11:13:28,953 INFO  [Log] Clicking on Register button 
+2015-05-21 12:38:42,228 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 12:38:42,833 INFO  [Log] **************************************************************************************** 
+2015-05-21 12:38:42,833 INFO  [Log] **************************************************************************************** 
+2015-05-21 12:38:42,833 INFO  [Log]                                sTestCaseName                                        
+2015-05-21 12:38:42,833 INFO  [Log] **************************************************************************************** 
+2015-05-21 12:38:42,833 INFO  [Log] **************************************************************************************** 
+2015-05-21 12:38:43,046 INFO  [Log] Clicking on SignIn link 
+2015-05-21 12:38:45,604 INFO  [Log] Entering an email to register 
+2015-05-21 12:38:46,174 INFO  [Log] Clicking on Register button 
+2015-05-21 13:39:18,235 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 13:39:21,872 INFO  [Log] Closing the browser 
+2015-05-21 13:43:26,609 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 13:43:30,152 INFO  [Log] Closing the browser 
+2015-05-21 13:46:54,192 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 13:46:57,796 INFO  [Log] Closing the browser 
+2015-05-21 13:48:25,296 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 13:48:29,005 INFO  [Log] Closing the browser 
+2015-05-21 13:52:43,407 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 13:52:47,062 INFO  [Log] We are on contactUs page 
+2015-05-21 13:53:08,712 INFO  [Log] closing browser is not happening 
+2015-05-21 14:01:35,606 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 14:01:38,798 INFO  [Log] We are on contactUs page 
+2015-05-21 14:02:15,437 INFO  [Log] We are on contactUs page 
+2015-05-21 14:02:21,063 INFO  [Log] We are on contactUs page 
+2015-05-21 14:02:57,043 INFO  [Log] We are on contactUs page 
+2015-05-21 14:03:03,103 INFO  [Log] We are on contactUs page 
+2015-05-21 14:03:38,632 INFO  [Log] We are on contactUs page 
+2015-05-21 14:03:44,496 INFO  [Log] We are on contactUs page 
+2015-05-21 14:03:45,594 INFO  [Log] Closing the browser 
+2015-05-21 14:20:45,814 INFO  [Log] Openign the browser with the given URL 
+2015-05-21 14:20:48,847 INFO  [Log] We are on contactUs page 
+2015-05-21 14:21:25,033 INFO  [Log] We are on contactUs page 
+2015-05-21 14:21:30,601 INFO  [Log] We are on contactUs page 
+2015-05-21 14:22:06,141 INFO  [Log] We are on contactUs page 
+2015-05-21 14:22:11,766 INFO  [Log] We are on contactUs page 
+2015-05-21 14:22:47,645 INFO  [Log] We are on contactUs page 
+2015-05-21 14:22:53,971 INFO  [Log] We are on contactUs page 
+2015-05-21 14:22:54,851 INFO  [Log] Closing the browser 

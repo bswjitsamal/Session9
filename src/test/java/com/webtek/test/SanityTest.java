@@ -71,7 +71,7 @@ public class SanityTest extends SelTestCase{
 		Object[][] cellData = Excelutils
 				.getInstance()
 				.readData(
-						"E:\\NewReTry\\ObjectWithDataDriven\\src\\test\\resources\\SignUp1.xls",	0);
+						"src/test/resources/SignUp.xls",0);
 		                //E:\NewReTry\ObjectWithDataDriven\src\test\resources\SignUp.xls
 		System.out.println("MMMMMM : " + cellData);
 		return cellData;

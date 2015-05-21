@@ -36,7 +36,7 @@ public class Excelutils {
 			Cell cell = (Cell) iterator.next();
 			headerStringBuffer.append(cell + "|");
 		}
-
+ 
 		System.out.println(headerStringBuffer);
 
 		int maxRowNum = hssfSheet.getLastRowNum() + 1;

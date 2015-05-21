@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [TestSuite1]">
+  <test name="Test in FF(failed)">
+    <classes>
+      <class name="com.webtek.test.SanityTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="userSignUp"/>
+          <include name="signUser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.webtek.test.SanityTest -->
+    </classes>
+  </test> <!-- Test in FF(failed) -->
+</suite> <!-- Failed suite [TestSuite1] -->

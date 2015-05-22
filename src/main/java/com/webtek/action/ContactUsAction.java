@@ -57,6 +57,7 @@ public class ContactUsAction extends SelTestCase {
 		select.selectByVisibleText(DATA);
 
 		try {
+			ContactUsPage.email.clear();
 			ContactUsPage.email.sendKeys(CUSTOMEREMAIL);
 			Log.info("Customer Email text box element is found");
 		} catch (Exception e1) {

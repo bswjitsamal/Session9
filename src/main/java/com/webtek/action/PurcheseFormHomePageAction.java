@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+
 import com.webtek.utils.Log;
 import com.webtek.pages.AddressDetailPage;
 import com.webtek.pages.HomePage;
@@ -62,7 +63,9 @@ public class PurcheseFormHomePageAction extends SelTestCase {
 		}
 
 		try {
-			ProductDetailPage.friendEmail.sendKeys(email);
+			String email1 = null;
+			email1 = SignUpAction.emailTest;
+			ProductDetailPage.friendEmail.sendKeys(email1);
 			Log.info("friendEmail element is found");
 		} catch (Exception e) {
 			Log.info("friendEmail element is not found");
@@ -129,7 +132,9 @@ public class PurcheseFormHomePageAction extends SelTestCase {
 		}
 
 		try {
-			LoginPage.enterEmail.sendKeys(email);
+			String email1 = null;
+			email1 = SignUpAction.emailTest;
+			LoginPage.enterEmail.sendKeys(email1);
 			Log.info("enterEmail element found");
 		} catch (Exception e) {
 			Log.info("enterEmail element is not found");

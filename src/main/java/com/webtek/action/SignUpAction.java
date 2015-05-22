@@ -10,19 +10,21 @@ import com.webtek.pages.HomePage;
 import com.webtek.pages.LoginPage;
 import com.webtek.pages.SignUpPage;
 
-public class SignUpAction extends SelTestCase{
+public class SignUpAction {
 
-	/*
+	 /*
 	 * static Random rand = new Random(); static String email =
 	 * rand.nextInt(999) + "@test.com";
 	 */
-
+	public static String emailTest=null;
+	
 	public static void execute(String email, String firstName, String lastName,
 			String password, String myfirstname, String mylastname,
 			String mycompany, String myAddressField1, String myAddressField2,
 			String myCity, String myPostCode, String myPhone,
 			String myAliasAddress) {
 
+		emailTest=email;
 		HomePage.sign_in.click();
 		Reporter.log("Clicking on SignIn link");
 		Log.info("Clicking on SignIn link");

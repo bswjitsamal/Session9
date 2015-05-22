@@ -758,3 +758,487 @@
 2015-05-22 12:46:05,216 INFO  [Log] **************************************************************************************** 
 2015-05-22 12:46:05,216 INFO  [Log] **************************************************************************************** 
 2015-05-22 12:46:06,033 INFO  [Log] Closing the browser 
+2015-05-22 14:56:27,211 INFO  [Log] Openign the browser with the given URL 
+2015-05-22 14:56:27,815 INFO  [Log] **************************************************************************************** 
+2015-05-22 14:56:27,815 INFO  [Log] **************************************************************************************** 
+2015-05-22 14:56:27,815 INFO  [Log]                                sTestCaseName                                        
+2015-05-22 14:56:27,815 INFO  [Log] **************************************************************************************** 
+2015-05-22 14:56:27,815 INFO  [Log] **************************************************************************************** 
+2015-05-22 14:56:28,055 INFO  [Log] Clicking on SignIn link 
+2015-05-22 14:56:30,758 INFO  [Log] Entering an email to register 
+2015-05-22 14:56:31,273 INFO  [Log] Clicking on Register button 
+2015-05-22 14:56:33,608 INFO  [Log] Clicked on Title radio button 
+2015-05-22 14:56:34,007 INFO  [Log] Enterd first name in the text field 
+2015-05-22 14:56:34,212 INFO  [Log] Enterd last name in the text field 
+2015-05-22 14:56:34,426 INFO  [Log] Enterd password in the text field 
+2015-05-22 14:56:35,245 INFO  [Log] Selecting days for Date of birth form the Dropdown 
+2015-05-22 14:57:06,181 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
+2015-05-22 14:57:37,080 INFO  [Log] Selecting Years for Date of birth form the Dropdown 
+2015-05-22 14:57:37,283 INFO  [Log] Entering first name for shipping details 
+2015-05-22 14:57:37,475 INFO  [Log] Entering last name for shipping details 
+2015-05-22 14:57:37,675 INFO  [Log] Entering company name for shipping details 
+2015-05-22 14:57:37,910 INFO  [Log] Entering address1 for shipping details 
+2015-05-22 14:57:38,111 INFO  [Log] Entering address2 for shipping details 
+2015-05-22 14:57:38,312 INFO  [Log] Entering city for shipping details 
+2015-05-22 14:57:39,005 INFO  [Log] Entering state for shipping details 
+2015-05-22 14:57:39,212 INFO  [Log] Entering zip code for shipping details 
+2015-05-22 14:57:39,668 INFO  [Log] Entering country for shipping details 
+2015-05-22 14:57:39,884 INFO  [Log] Entering Mobile Number for shipping details 
+2015-05-22 14:57:40,079 INFO  [Log] Entering alias address for shipping details 
+2015-05-22 14:57:42,980 INFO  [Log] Clicking on Register button 
+2015-05-22 14:57:45,963 INFO  [Log] Logout form the application 
+2015-05-22 14:57:45,964 INFO  [Log] SignOutAction perform successfully 
+2015-05-22 14:57:46,288 INFO  [Log] Click action is perfromed on My Account link 
+2015-05-22 14:57:48,243 INFO  [Log]  entered in UserName text box 
+2015-05-22 14:57:48,476 INFO  [Log]  entered in Password text box 
+2015-05-22 14:57:50,031 INFO  [Log] Click action is performed on Submit button 
+2015-05-22 14:57:51,031 INFO  [Log] Login successfully 
+2015-05-22 14:57:51,031 INFO  [Log] SignInAction performed succesfully 
+2015-05-22 14:57:54,371 INFO  [Log] clickOnLogo element is found 
+2015-05-22 14:57:55,120 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-22 14:57:58,461 INFO  [Log] sendToAFriend element is found 
+2015-05-22 14:57:58,879 INFO  [Log] friendName is found 
+2015-05-22 14:57:59,104 INFO  [Log] friendEmail element is found 
+2015-05-22 14:57:59,451 INFO  [Log] cancel element is found 
+2015-05-22 14:58:00,015 INFO  [Log] Increasing the product quantity 
+2015-05-22 14:58:00,207 INFO  [Log] Increasing the product quantity 
+2015-05-22 14:58:00,208 INFO  [Log] increaseQuantity element is found 
+2015-05-22 14:58:00,429 INFO  [Log] Decreasing the product quantity 
+2015-05-22 14:58:00,429 INFO  [Log] decreaseQuantity element is found 
+2015-05-22 14:58:00,863 INFO  [Log] dropDownField element is found 
+2015-05-22 14:58:01,090 INFO  [Log] addToCart element is found 
+2015-05-22 14:58:02,028 INFO  [Log] proceedToChekOutInProductDetailPage element is found 
+2015-05-22 14:58:04,536 INFO  [Log] proceedToCheckOutInSummaryPage element found 
+2015-05-22 14:58:06,756 INFO  [Log] enterEmail element found 
+2015-05-22 14:58:07,020 INFO  [Log] enterPassword element found 
+2015-05-22 14:58:08,623 INFO  [Log] signin_button element is found 
+2015-05-22 14:58:38,812 INFO  [Log] proceedToCheckOutInAddressDetailPage element is not found 
+2015-05-22 14:59:08,957 INFO  [Log] agreeTermsOfServices element is not found 
+2015-05-22 14:59:39,021 INFO  [Log] proceedTOCheckOutConfirmShippingPage element is not found 
+2015-05-22 15:00:09,088 INFO  [Log] payByCheque element is not found 
+2015-05-22 15:00:39,226 INFO  [Log] iConfirmMyOrder element is not found 
+2015-05-22 15:00:39,244 INFO  [Log] Order complete successfully 
+2015-05-22 15:00:39,244 INFO  [Log] PurcheseFormHomePageAction done successfully 
+2015-05-22 15:00:39,445 INFO  [Log] clickOnLogo element is found 
+2015-05-22 15:00:43,099 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-22 15:00:44,248 INFO  [Log] Continue Shopping 
+2015-05-22 15:00:44,792 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-22 15:00:45,663 INFO  [Log] Continue Shopping 
+2015-05-22 15:00:46,660 INFO  [Log] Selected product titiel is------> Faded Short Sleeve T-shirts 
+2015-05-22 15:00:46,661 INFO  [Log] Product title in cart------>Faded Short Sleeve T-shirts 
+2015-05-22 15:00:46,661 INFO  [Log] product Title Matches 
+2015-05-22 15:00:46,661 INFO  [Log] Comparision of title is done successfully 
+2015-05-22 15:00:46,808 INFO  [Log] The prices of individual item is --->49.53 
+2015-05-22 15:00:46,887 INFO  [Log] The prices of individual item is --->27.0 
+2015-05-22 15:00:46,896 INFO  [Log] totalPrice is -->76.53 
+2015-05-22 15:00:46,904 INFO  [Log] The expected price is-->78.52 
+2015-05-22 15:00:47,037 INFO  [Log] The Actual price is-->78.53 
+2015-05-22 15:00:47,037 INFO  [Log] The summation of price is done correctly 
+2015-05-22 15:00:47,037 INFO  [Log] SelectedItemOnCartAction done successfully 
+2015-05-22 15:00:49,543 INFO  [Log] We are in contact us page 
+2015-05-22 15:00:50,654 INFO  [Log] Customer Email text box element is found 
+2015-05-22 15:00:50,959 INFO  [Log] Order text box element is found 
+2015-05-22 15:00:51,362 INFO  [Log] Message text are element is found 
+2015-05-22 15:00:53,337 INFO  [Log] Sumbit button element is found 
+2015-05-22 15:00:53,338 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 15:00:53,338 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:00:53,338 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:00:53,338 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 15:00:53,338 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:00:53,338 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:00:54,809 INFO  [Log] We are in contact us page 
+2015-05-22 15:00:56,711 INFO  [Log] Customer Email text box element is found 
+2015-05-22 15:00:56,927 INFO  [Log] Order text box element is found 
+2015-05-22 15:00:57,281 INFO  [Log] Message text are element is found 
+2015-05-22 15:00:58,949 INFO  [Log] Sumbit button element is found 
+2015-05-22 15:00:58,949 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 15:00:58,949 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:00:58,949 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:00:58,949 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 15:00:58,949 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:00:58,949 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:00,727 INFO  [Log] We are in contact us page 
+2015-05-22 15:01:01,842 INFO  [Log] Customer Email text box element is found 
+2015-05-22 15:01:02,094 INFO  [Log] Order text box element is found 
+2015-05-22 15:01:02,441 INFO  [Log] Message text are element is found 
+2015-05-22 15:01:04,042 INFO  [Log] Sumbit button element is found 
+2015-05-22 15:01:04,043 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 15:01:04,043 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:04,043 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:04,043 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 15:01:04,043 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:04,043 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:06,081 INFO  [Log] We are in contact us page 
+2015-05-22 15:01:07,111 INFO  [Log] Customer Email text box element is found 
+2015-05-22 15:01:07,347 INFO  [Log] Order text box element is found 
+2015-05-22 15:01:07,699 INFO  [Log] Message text are element is found 
+2015-05-22 15:01:09,320 INFO  [Log] Sumbit button element is found 
+2015-05-22 15:01:09,338 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 15:01:09,338 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:09,338 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:09,338 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 15:01:09,338 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:09,338 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:11,225 INFO  [Log] We are in contact us page 
+2015-05-22 15:01:12,393 INFO  [Log] Customer Email text box element is found 
+2015-05-22 15:01:12,645 INFO  [Log] Order text box element is found 
+2015-05-22 15:01:12,996 INFO  [Log] Message text are element is found 
+2015-05-22 15:01:14,696 INFO  [Log] Sumbit button element is found 
+2015-05-22 15:01:14,696 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 15:01:14,696 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:14,696 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:14,696 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 15:01:14,696 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:14,697 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:16,808 INFO  [Log] We are in contact us page 
+2015-05-22 15:01:17,944 INFO  [Log] Customer Email text box element is found 
+2015-05-22 15:01:18,177 INFO  [Log] Order text box element is found 
+2015-05-22 15:01:18,541 INFO  [Log] Message text are element is found 
+2015-05-22 15:01:20,242 INFO  [Log] Sumbit button element is found 
+2015-05-22 15:01:20,242 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 15:01:20,242 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:20,243 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:20,243 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 15:01:20,243 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:20,243 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:22,223 INFO  [Log] We are in contact us page 
+2015-05-22 15:01:23,343 INFO  [Log] Customer Email text box element is found 
+2015-05-22 15:01:23,613 INFO  [Log] Order text box element is found 
+2015-05-22 15:01:23,946 INFO  [Log] Message text are element is found 
+2015-05-22 15:01:25,688 INFO  [Log] Sumbit button element is found 
+2015-05-22 15:01:25,690 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 15:01:25,690 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:25,690 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:25,690 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 15:01:25,690 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:25,690 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:01:26,331 INFO  [Log] Closing the browser 
+2015-05-22 15:55:02,875 INFO  [Log] Openign the browser with the given URL 
+2015-05-22 15:55:03,488 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:55:03,488 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:55:03,488 INFO  [Log]                                sTestCaseName                                        
+2015-05-22 15:55:03,488 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:55:03,488 INFO  [Log] **************************************************************************************** 
+2015-05-22 15:55:03,728 INFO  [Log] Clicking on SignIn link 
+2015-05-22 15:55:06,610 INFO  [Log] Entering an email to register 
+2015-05-22 15:55:07,086 INFO  [Log] Clicking on Register button 
+2015-05-22 15:55:37,446 INFO  [Log] SignUpAction dose not perform successfully 
+2015-05-22 15:56:07,691 INFO  [Log] SignOut button element is not found 
+2015-05-22 15:56:07,691 INFO  [Log] SignOutAction dose not perform successfully 
+2015-05-22 15:56:08,144 INFO  [Log] Click action is perfromed on My Account link 
+2015-05-22 15:56:10,596 INFO  [Log]  entered in UserName text box 
+2015-05-22 15:56:10,807 INFO  [Log]  entered in Password text box 
+2015-05-22 15:56:13,325 INFO  [Log] Click action is performed on Submit button 
+2015-05-22 15:56:14,325 INFO  [Log] Login successfully 
+2015-05-22 15:56:14,325 INFO  [Log] SignInAction performed succesfully 
+2015-05-22 15:56:14,909 INFO  [Log] Closing the browser 
+2015-05-22 17:26:35,886 INFO  [Log] Openign the browser with the given URL 
+2015-05-22 17:26:36,576 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:26:36,576 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:26:36,576 INFO  [Log]                                sTestCaseName                                        
+2015-05-22 17:26:36,576 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:26:36,576 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:26:36,863 INFO  [Log] Clicking on SignIn link 
+2015-05-22 17:26:39,538 INFO  [Log] Entering an email to register 
+2015-05-22 17:26:40,073 INFO  [Log] Clicking on Register button 
+2015-05-22 17:26:42,451 INFO  [Log] Clicked on Title radio button 
+2015-05-22 17:26:42,856 INFO  [Log] Enterd first name in the text field 
+2015-05-22 17:26:43,091 INFO  [Log] Enterd last name in the text field 
+2015-05-22 17:26:43,303 INFO  [Log] Enterd password in the text field 
+2015-05-22 17:26:44,013 INFO  [Log] Selecting days for Date of birth form the Dropdown 
+2015-05-22 17:27:14,951 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
+2015-05-22 17:27:45,890 INFO  [Log] Selecting Years for Date of birth form the Dropdown 
+2015-05-22 17:27:46,098 INFO  [Log] Entering first name for shipping details 
+2015-05-22 17:27:46,327 INFO  [Log] Entering last name for shipping details 
+2015-05-22 17:27:46,478 INFO  [Log] Entering company name for shipping details 
+2015-05-22 17:27:46,695 INFO  [Log] Entering address1 for shipping details 
+2015-05-22 17:27:46,898 INFO  [Log] Entering address2 for shipping details 
+2015-05-22 17:27:47,093 INFO  [Log] Entering city for shipping details 
+2015-05-22 17:27:47,879 INFO  [Log] Entering state for shipping details 
+2015-05-22 17:27:48,092 INFO  [Log] Entering zip code for shipping details 
+2015-05-22 17:27:48,518 INFO  [Log] Entering country for shipping details 
+2015-05-22 17:27:48,716 INFO  [Log] Entering Mobile Number for shipping details 
+2015-05-22 17:27:48,886 INFO  [Log] Entering alias address for shipping details 
+2015-05-22 17:27:51,756 INFO  [Log] Clicking on Register button 
+2015-05-22 17:27:54,718 INFO  [Log] Logout form the application 
+2015-05-22 17:27:54,720 INFO  [Log] SignOutAction perform successfully 
+2015-05-22 17:27:55,047 INFO  [Log] Click action is perfromed on My Account link 
+2015-05-22 17:27:57,141 INFO  [Log]  entered in UserName text box 
+2015-05-22 17:27:57,373 INFO  [Log]  entered in Password text box 
+2015-05-22 17:27:59,643 INFO  [Log] Click action is performed on Submit button 
+2015-05-22 17:28:00,644 INFO  [Log] Login successfully 
+2015-05-22 17:28:00,644 INFO  [Log] SignInAction performed succesfully 
+2015-05-22 17:28:00,842 INFO  [Log] clickOnLogo element is found 
+2015-05-22 17:28:04,537 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-22 17:28:07,748 INFO  [Log] sendToAFriend element is found 
+2015-05-22 17:28:08,156 INFO  [Log] friendName is found 
+2015-05-22 17:28:08,401 INFO  [Log] friendEmail element is found 
+2015-05-22 17:28:08,647 INFO  [Log] cancel element is found 
+2015-05-22 17:28:09,236 INFO  [Log] Increasing the product quantity 
+2015-05-22 17:28:09,503 INFO  [Log] Increasing the product quantity 
+2015-05-22 17:28:09,505 INFO  [Log] increaseQuantity element is found 
+2015-05-22 17:28:09,705 INFO  [Log] Decreasing the product quantity 
+2015-05-22 17:28:09,705 INFO  [Log] decreaseQuantity element is found 
+2015-05-22 17:28:10,230 INFO  [Log] dropDownField element is found 
+2015-05-22 17:28:10,512 INFO  [Log] addToCart element is found 
+2015-05-22 17:28:11,599 INFO  [Log] proceedToChekOutInProductDetailPage element is found 
+2015-05-22 17:28:15,996 INFO  [Log] proceedToCheckOutInSummaryPage element found 
+2015-05-22 17:28:46,101 INFO  [Log] enterEmail element is not found 
+2015-05-22 17:29:16,219 INFO  [Log] enterPassword element is not fond 
+2015-05-22 17:29:46,313 INFO  [Log] signin_button element is not found 
+2015-05-22 17:29:48,873 INFO  [Log] proceedToCheckOutInAddressDetailPage element is found 
+2015-05-22 17:29:49,101 INFO  [Log] agreeTermsOfServices element found 
+2015-05-22 17:29:50,972 INFO  [Log] proceedTOCheckOutConfirmShippingPage element is found 
+2015-05-22 17:29:51,285 INFO  [Log] payByCheque element is found 
+2015-05-22 17:29:55,084 INFO  [Log] iConfirmMyOrder element is found 
+2015-05-22 17:29:55,084 INFO  [Log] Order complete successfully 
+2015-05-22 17:29:55,084 INFO  [Log] PurcheseFormHomePageAction done successfully 
+2015-05-22 17:29:55,520 INFO  [Log] clickOnLogo element is found 
+2015-05-22 17:29:58,572 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-22 17:29:59,549 INFO  [Log] Continue Shopping 
+2015-05-22 17:30:00,081 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-22 17:30:01,081 INFO  [Log] Continue Shopping 
+2015-05-22 17:30:02,009 INFO  [Log] Selected product titiel is------> Faded Short Sleeve T-shirts 
+2015-05-22 17:30:02,009 INFO  [Log] Product title in cart------>Faded Short Sleeve T-shirts 
+2015-05-22 17:30:02,009 INFO  [Log] product Title Matches 
+2015-05-22 17:30:02,009 INFO  [Log] Comparision of title is done successfully 
+2015-05-22 17:30:02,154 INFO  [Log] The prices of individual item is --->16.51 
+2015-05-22 17:30:02,229 INFO  [Log] The prices of individual item is --->27.0 
+2015-05-22 17:30:02,229 INFO  [Log] totalPrice is -->43.510002 
+2015-05-22 17:30:02,236 INFO  [Log] The expected price is-->45.51 
+2015-05-22 17:30:02,378 INFO  [Log] The Actual price is-->45.51 
+2015-05-22 17:30:02,379 INFO  [Log] The summation of price is done correctly 
+2015-05-22 17:30:02,379 INFO  [Log] SelectedItemOnCartAction done successfully 
+2015-05-22 17:30:05,180 INFO  [Log] We are in contact us page 
+2015-05-22 17:30:06,233 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:30:36,362 INFO  [Log] Order text box element is not found 
+2015-05-22 17:30:36,655 INFO  [Log] Message text are element is found 
+2015-05-22 17:30:38,768 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:30:38,770 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:30:38,770 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:30:38,770 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:30:38,770 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:30:38,770 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:30:38,770 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:30:40,624 INFO  [Log] We are in contact us page 
+2015-05-22 17:30:41,717 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:31:11,871 INFO  [Log] Order text box element is not found 
+2015-05-22 17:31:12,137 INFO  [Log] Message text are element is found 
+2015-05-22 17:31:13,923 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:31:13,923 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:31:13,923 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:31:13,923 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:31:13,923 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:31:13,923 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:31:13,923 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:31:15,704 INFO  [Log] We are in contact us page 
+2015-05-22 17:31:16,893 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:31:47,051 INFO  [Log] Order text box element is not found 
+2015-05-22 17:31:47,320 INFO  [Log] Message text are element is found 
+2015-05-22 17:31:49,247 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:31:49,247 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:31:49,247 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:31:49,247 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:31:49,247 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:31:49,247 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:31:49,247 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:31:51,435 INFO  [Log] We are in contact us page 
+2015-05-22 17:31:52,524 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:32:22,701 INFO  [Log] Order text box element is not found 
+2015-05-22 17:32:23,001 INFO  [Log] Message text are element is found 
+2015-05-22 17:32:25,070 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:32:25,070 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:32:25,070 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:32:25,070 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:32:25,070 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:32:25,070 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:32:25,070 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:32:27,318 INFO  [Log] We are in contact us page 
+2015-05-22 17:32:28,511 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:32:58,664 INFO  [Log] Order text box element is not found 
+2015-05-22 17:32:58,954 INFO  [Log] Message text are element is found 
+2015-05-22 17:33:00,832 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:33:00,833 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:33:00,833 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:33:00,833 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:33:00,833 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:33:00,833 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:33:00,833 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:33:02,945 INFO  [Log] We are in contact us page 
+2015-05-22 17:33:04,068 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:33:34,202 INFO  [Log] Order text box element is not found 
+2015-05-22 17:33:34,464 INFO  [Log] Message text are element is found 
+2015-05-22 17:33:36,385 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:33:36,386 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:33:36,386 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:33:36,386 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:33:36,386 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:33:36,386 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:33:36,386 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:33:38,537 INFO  [Log] We are in contact us page 
+2015-05-22 17:33:39,564 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:34:09,679 INFO  [Log] Order text box element is not found 
+2015-05-22 17:34:09,984 INFO  [Log] Message text are element is found 
+2015-05-22 17:34:11,923 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:34:11,923 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:34:11,923 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:34:11,923 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:34:11,923 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:34:11,923 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:34:11,923 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:34:12,710 INFO  [Log] Closing the browser 
+2015-05-22 17:37:57,712 INFO  [Log] Openign the browser with the given URL 
+2015-05-22 17:37:58,365 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:37:58,366 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:37:58,367 INFO  [Log]                                sTestCaseName                                        
+2015-05-22 17:37:58,367 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:37:58,367 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:37:58,610 INFO  [Log] Clicking on SignIn link 
+2015-05-22 17:38:02,492 INFO  [Log] Entering an email to register 
+2015-05-22 17:38:02,969 INFO  [Log] Clicking on Register button 
+2015-05-22 17:38:05,555 INFO  [Log] Clicked on Title radio button 
+2015-05-22 17:38:05,863 INFO  [Log] Enterd first name in the text field 
+2015-05-22 17:38:06,063 INFO  [Log] Enterd last name in the text field 
+2015-05-22 17:38:06,270 INFO  [Log] Enterd password in the text field 
+2015-05-22 17:38:06,996 INFO  [Log] Selecting days for Date of birth form the Dropdown 
+2015-05-22 17:38:37,943 INFO  [Log] Selecting Months for Date of birth form the Dropdown 
+2015-05-22 17:39:08,795 INFO  [Log] Selecting Years for Date of birth form the Dropdown 
+2015-05-22 17:39:09,000 INFO  [Log] Entering first name for shipping details 
+2015-05-22 17:39:09,212 INFO  [Log] Entering last name for shipping details 
+2015-05-22 17:39:09,392 INFO  [Log] Entering company name for shipping details 
+2015-05-22 17:39:09,584 INFO  [Log] Entering address1 for shipping details 
+2015-05-22 17:39:09,771 INFO  [Log] Entering address2 for shipping details 
+2015-05-22 17:39:09,965 INFO  [Log] Entering city for shipping details 
+2015-05-22 17:39:10,652 INFO  [Log] Entering state for shipping details 
+2015-05-22 17:39:10,884 INFO  [Log] Entering zip code for shipping details 
+2015-05-22 17:39:11,301 INFO  [Log] Entering country for shipping details 
+2015-05-22 17:39:11,485 INFO  [Log] Entering Mobile Number for shipping details 
+2015-05-22 17:39:11,682 INFO  [Log] Entering alias address for shipping details 
+2015-05-22 17:39:14,790 INFO  [Log] Clicking on Register button 
+2015-05-22 17:39:15,110 INFO  [Log] Logout form the application 
+2015-05-22 17:39:15,111 INFO  [Log] SignOutAction perform successfully 
+2015-05-22 17:39:17,949 INFO  [Log] Click action is perfromed on My Account link 
+2015-05-22 17:39:20,612 INFO  [Log]  entered in UserName text box 
+2015-05-22 17:39:20,868 INFO  [Log]  entered in Password text box 
+2015-05-22 17:39:23,150 INFO  [Log] Click action is performed on Submit button 
+2015-05-22 17:39:24,150 INFO  [Log] Login successfully 
+2015-05-22 17:39:24,150 INFO  [Log] SignInAction performed succesfully 
+2015-05-22 17:39:27,331 INFO  [Log] clickOnLogo element is found 
+2015-05-22 17:39:28,117 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-22 17:39:31,255 INFO  [Log] sendToAFriend element is found 
+2015-05-22 17:39:31,722 INFO  [Log] friendName is found 
+2015-05-22 17:39:31,936 INFO  [Log] friendEmail element is found 
+2015-05-22 17:39:32,209 INFO  [Log] cancel element is found 
+2015-05-22 17:39:32,817 INFO  [Log] Increasing the product quantity 
+2015-05-22 17:39:33,037 INFO  [Log] Increasing the product quantity 
+2015-05-22 17:39:33,037 INFO  [Log] increaseQuantity element is found 
+2015-05-22 17:39:33,254 INFO  [Log] Decreasing the product quantity 
+2015-05-22 17:39:33,254 INFO  [Log] decreaseQuantity element is found 
+2015-05-22 17:39:33,795 INFO  [Log] dropDownField element is found 
+2015-05-22 17:39:34,006 INFO  [Log] addToCart element is found 
+2015-05-22 17:39:35,318 INFO  [Log] proceedToChekOutInProductDetailPage element is found 
+2015-05-22 17:39:39,602 INFO  [Log] proceedToCheckOutInSummaryPage element found 
+2015-05-22 17:40:09,720 INFO  [Log] enterEmail element is not found 
+2015-05-22 17:40:39,845 INFO  [Log] enterPassword element is not fond 
+2015-05-22 17:41:09,993 INFO  [Log] signin_button element is not found 
+2015-05-22 17:41:12,399 INFO  [Log] proceedToCheckOutInAddressDetailPage element is found 
+2015-05-22 17:41:12,645 INFO  [Log] agreeTermsOfServices element found 
+2015-05-22 17:41:14,424 INFO  [Log] proceedTOCheckOutConfirmShippingPage element is found 
+2015-05-22 17:41:14,738 INFO  [Log] payByCheque element is found 
+2015-05-22 17:41:18,325 INFO  [Log] iConfirmMyOrder element is found 
+2015-05-22 17:41:18,328 INFO  [Log] Order complete successfully 
+2015-05-22 17:41:18,328 INFO  [Log] PurcheseFormHomePageAction done successfully 
+2015-05-22 17:41:21,441 INFO  [Log] clickOnLogo element is found 
+2015-05-22 17:41:22,061 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-22 17:41:22,964 INFO  [Log] Continue Shopping 
+2015-05-22 17:41:23,561 INFO  [Log] Selecting a product form home page and moving to detail about the product 
+2015-05-22 17:41:24,487 INFO  [Log] Continue Shopping 
+2015-05-22 17:41:25,517 INFO  [Log] Selected product titiel is------> Faded Short Sleeve T-shirts 
+2015-05-22 17:41:25,518 INFO  [Log] Product title in cart------>Faded Short Sleeve T-shirts 
+2015-05-22 17:41:25,518 INFO  [Log] product Title Matches 
+2015-05-22 17:41:25,518 INFO  [Log] Comparision of title is done successfully 
+2015-05-22 17:41:25,658 INFO  [Log] The prices of individual item is --->16.51 
+2015-05-22 17:41:25,736 INFO  [Log] The prices of individual item is --->27.0 
+2015-05-22 17:41:25,736 INFO  [Log] totalPrice is -->43.510002 
+2015-05-22 17:41:25,744 INFO  [Log] The expected price is-->45.51 
+2015-05-22 17:41:25,905 INFO  [Log] The Actual price is-->45.51 
+2015-05-22 17:41:25,906 INFO  [Log] The summation of price is done correctly 
+2015-05-22 17:41:25,906 INFO  [Log] SelectedItemOnCartAction done successfully 
+2015-05-22 17:41:28,305 INFO  [Log] We are in contact us page 
+2015-05-22 17:41:29,578 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:41:59,689 INFO  [Log] Order text box element is not found 
+2015-05-22 17:41:59,997 INFO  [Log] Message text are element is found 
+2015-05-22 17:42:01,962 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:42:01,965 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:42:01,965 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:42:01,965 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:42:01,965 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:42:01,965 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:42:01,965 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:42:03,897 INFO  [Log] We are in contact us page 
+2015-05-22 17:42:05,141 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:42:35,257 INFO  [Log] Order text box element is not found 
+2015-05-22 17:42:35,630 INFO  [Log] Message text are element is found 
+2015-05-22 17:42:37,704 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:42:37,710 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:42:37,715 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:42:37,715 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:42:37,715 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:42:37,715 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:42:37,715 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:42:40,795 INFO  [Log] We are in contact us page 
+2015-05-22 17:42:42,501 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:43:12,698 INFO  [Log] Order text box element is not found 
+2015-05-22 17:43:13,036 INFO  [Log] Message text are element is found 
+2015-05-22 17:43:15,089 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:43:15,090 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:43:15,090 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:43:15,090 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:43:15,090 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:43:15,090 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:43:15,090 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:43:17,963 INFO  [Log] We are in contact us page 
+2015-05-22 17:43:19,746 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:43:49,905 INFO  [Log] Order text box element is not found 
+2015-05-22 17:43:50,370 INFO  [Log] Message text are element is found 
+2015-05-22 17:43:52,402 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:43:52,403 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:43:52,403 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:43:52,403 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:43:52,403 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:43:52,403 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:43:52,403 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:43:54,738 INFO  [Log] We are in contact us page 
+2015-05-22 17:43:57,065 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:44:27,233 INFO  [Log] Order text box element is not found 
+2015-05-22 17:44:27,623 INFO  [Log] Message text are element is found 
+2015-05-22 17:44:29,861 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:44:29,862 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:44:29,863 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:44:29,863 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:44:29,863 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:44:29,863 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:44:29,863 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:44:32,609 INFO  [Log] We are in contact us page 
+2015-05-22 17:44:34,699 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:45:04,864 INFO  [Log] Order text box element is not found 
+2015-05-22 17:45:05,281 INFO  [Log] Message text are element is found 
+2015-05-22 17:45:07,395 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:45:07,398 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:45:07,398 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:45:07,398 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:45:07,398 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:45:07,398 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:45:07,398 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:45:10,649 INFO  [Log] We are in contact us page 
+2015-05-22 17:45:12,753 INFO  [Log] Customer Email text box element is found 
+2015-05-22 17:45:42,936 INFO  [Log] Order text box element is not found 
+2015-05-22 17:45:43,368 INFO  [Log] Message text are element is found 
+2015-05-22 17:45:45,537 INFO  [Log] Sumbit button element is found 
+2015-05-22 17:45:45,537 INFO  [Log] ContactUsAction done successfully 
+2015-05-22 17:45:45,537 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:45:45,537 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:45:45,537 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-05-22 17:45:45,537 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:45:45,537 INFO  [Log] **************************************************************************************** 
+2015-05-22 17:45:46,870 INFO  [Log] Closing the browser 

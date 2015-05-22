@@ -21,5 +21,4 @@ public class OrderSummaryPage {
 
 	@FindBy(how = How.CSS, using = ".alert.alert-success")
 	public static boolean orderCompleteMessage;
-
 }

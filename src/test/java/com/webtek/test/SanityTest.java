@@ -1,18 +1,22 @@
 package com.webtek.test;
 
 import java.io.File;
+
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import com.webtek.utils.Log;
+
 import com.webtek.action.SignInAction;
 import com.webtek.action.SignOutAction;
 import com.webtek.action.SignUpAction;
-import com.webtek.utils.Excelutils;
 import com.webtek.pages.HomePage;
 import com.webtek.pages.LogOutPage;
 import com.webtek.pages.LoginPage;
 import com.webtek.pages.SignUpPage;
+import com.webtek.utils.Excelutils;
+import com.webtek.utils.Log;
+
+
 
 public class SanityTest extends SelTestCase{
 

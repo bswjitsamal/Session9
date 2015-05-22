@@ -15,5 +15,4 @@ public class LogOutPage {
 
 	@FindBy(how = How.LINK_TEXT, using = "Sign out")
 	public static WebElement signOut;
-
 }

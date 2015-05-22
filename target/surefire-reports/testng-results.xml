@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="7" total="15" passed="8">
+<testng-results skipped="0" failed="0" total="11" passed="11">
   <reporter-output>
     <line>
       <![CDATA[Clicking on SignIn link]]>
@@ -25,17 +25,276 @@
     <line>
       <![CDATA[Selecting days for Date of birth form the Dropdown]]>
     </line>
+    <line>
+      <![CDATA[Selecting Months for Date of birth form the Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Selecting Years for Date of birth form the Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Entering first name for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering last name for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering company name for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering address1 for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering address2 for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering city for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering state for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering zip code for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering country for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering Mobile Number for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Entering alias address for shipping details]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Register button]]>
+    </line>
+    <line>
+      <![CDATA[Logout form the application]]>
+    </line>
+    <line>
+      <![CDATA[Click action is perfromed on My Account link]]>
+    </line>
+    <line>
+      <![CDATA[ entered in UserName text box]]>
+    </line>
+    <line>
+      <![CDATA[ entered in Password text box]]>
+    </line>
+    <line>
+      <![CDATA[Click action is performed on Submit button]]>
+    </line>
   </reporter-output>
-  <suite name="TestSuite1" duration-ms="43452" started-at="2015-05-22T05:07:28Z" finished-at="2015-05-22T05:08:12Z">
+  <suite name="TestSuite1" duration-ms="467485" started-at="2015-05-22T12:07:58Z" finished-at="2015-05-22T12:15:45Z">
     <groups>
     </groups>
-    <test name="Test in FF" duration-ms="34110" started-at="2015-05-22T05:07:28Z" finished-at="2015-05-22T05:08:03Z">
-      <class name="com.webtek.test.SanityTest">
-        <test-method status="PASS" signature="userSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest@3b6eb2ec]" name="userSignUp" duration-ms="24560" started-at="2015-05-22T10:37:29Z" data-provider="SignUpUser" finished-at="2015-05-22T10:37:53Z">
+    <test name="Test in FF" duration-ms="467485" started-at="2015-05-22T12:07:58Z" finished-at="2015-05-22T12:15:45Z">
+      <class name="com.webtek.test.SanityTest1">
+        <test-method status="PASS" signature="firstAddProductThenCheckOutWithSign()[pri:0, instance:com.webtek.test.SanityTest1@7a0ac6e3]" name="firstAddProductThenCheckOutWithSign" duration-ms="114177" started-at="2015-05-22T17:39:24Z" finished-at="2015-05-22T17:41:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstAddProductThenCheckOutWithSign -->
+        <test-method status="PASS" signature="verifyItemPresentInCartAndSummation()[pri:0, instance:com.webtek.test.SanityTest1@7a0ac6e3]" name="verifyItemPresentInCartAndSummation" duration-ms="7577" started-at="2015-05-22T17:41:18Z" finished-at="2015-05-22T17:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyItemPresentInCartAndSummation -->
+      </class> <!-- com.webtek.test.SanityTest1 -->
+      <class name="com.webtek.test.SanityTest2">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.webtek.test.SanityTest2@3b6eb2ec]" name="SetUp" is-config="true" duration-ms="14080" started-at="2015-05-22T17:37:43Z" finished-at="2015-05-22T17:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@3b6eb2ec]" name="contactUs" duration-ms="36015" started-at="2015-05-22T17:41:25Z" data-provider="contactUs" finished-at="2015-05-22T17:42:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[t321@t.com]]>
+                <![CDATA[Customer service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sampletest1@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[order1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is for a sample testing. Please do not consider ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@3b6eb2ec]" name="contactUs" duration-ms="35750" started-at="2015-05-22T17:42:01Z" data-provider="contactUs" finished-at="2015-05-22T17:42:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Webmaster]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sampletest2@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[order2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is for a sample testing. Please do not consider ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@3b6eb2ec]" name="contactUs" duration-ms="37375" started-at="2015-05-22T17:42:37Z" data-provider="contactUs" finished-at="2015-05-22T17:43:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sampletest3@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[order3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is for a sample testing. Please do not consider ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@3b6eb2ec]" name="contactUs" duration-ms="37313" started-at="2015-05-22T17:43:15Z" data-provider="contactUs" finished-at="2015-05-22T17:43:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Webmaster]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sampletest4@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[order4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is for a sample testing. Please do not consider ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@3b6eb2ec]" name="contactUs" duration-ms="37460" started-at="2015-05-22T17:43:52Z" data-provider="contactUs" finished-at="2015-05-22T17:44:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer service]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sampletest5@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[order5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is for a sample testing. Please do not consider ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@3b6eb2ec]" name="contactUs" duration-ms="37535" started-at="2015-05-22T17:44:29Z" data-provider="contactUs" finished-at="2015-05-22T17:45:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Webmaster]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sampletest6@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[order6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is for a sample testing. Please do not consider ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@3b6eb2ec]" name="contactUs" duration-ms="38139" started-at="2015-05-22T17:45:07Z" data-provider="contactUs" finished-at="2015-05-22T17:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Webmaster]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sampletest6@mail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[order6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is for a sample testing. Please do not consider ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webtek.test.SanityTest2@3b6eb2ec]" name="tearDown" is-config="true" duration-ms="1313" started-at="2015-05-22T17:45:45Z" finished-at="2015-05-22T17:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.webtek.test.SanityTest2 -->
+      <class name="com.webtek.test.SanityTest">
+        <test-method status="PASS" signature="userSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest@59a6e353]" name="userSignUp" duration-ms="76785" started-at="2015-05-22T17:37:58Z" data-provider="SignUpUser" finished-at="2015-05-22T17:39:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sample2@t.com]]>
               </value>
             </param>
             <param index="1">
@@ -124,1077 +383,70 @@
             <line>
               <![CDATA[Selecting days for Date of birth form the Dropdown]]>
             </line>
+            <line>
+              <![CDATA[Selecting Months for Date of birth form the Dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Selecting Years for Date of birth form the Dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Entering first name for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering last name for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering company name for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering address1 for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering address2 for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering city for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering state for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering zip code for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering country for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering Mobile Number for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Entering alias address for shipping details]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Register button]]>
+            </line>
+            <line>
+              <![CDATA[Logout form the application]]>
+            </line>
           </reporter-output>
         </test-method> <!-- userSignUp -->
-        <test-method status="PASS" signature="userSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest@3b6eb2ec]" name="userSignUp" duration-ms="2064" started-at="2015-05-22T10:37:53Z" data-provider="SignUpUser" finished-at="2015-05-22T10:37:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[t456@t.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[GHI]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[JKL]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[GHI]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[JKL]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[company]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[JadavPur]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Kestapur]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Kolkata]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[00000]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[9748888983]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[kolkata]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="signUser()[pri:0, instance:com.webtek.test.SanityTest@59a6e353]" name="signUser" duration-ms="9036" started-at="2015-05-22T17:39:15Z" depends-on-methods="com.webtek.test.SanityTest.userSignUp" finished-at="2015-05-22T17:39:24Z">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userSignUp -->
-        <test-method status="PASS" signature="userSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest@3b6eb2ec]" name="userSignUp" duration-ms="2041" started-at="2015-05-22T10:37:55Z" data-provider="SignUpUser" finished-at="2015-05-22T10:37:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[t789@t.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MNO]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[PQR]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[MNO]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[PQR]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[company]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[MukundaPur]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[NewTown]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Kolkata]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[00000]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[9748888983]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[kolkata]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userSignUp -->
-        <test-method status="PASS" signature="userSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest@3b6eb2ec]" name="userSignUp" duration-ms="2065" started-at="2015-05-22T10:37:57Z" data-provider="SignUpUser" finished-at="2015-05-22T10:37:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[t910@t.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[STU]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[VWX]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[STU]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[VWX]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[company]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Ultadanga]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[VIP]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Kolkata]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[00000]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[9748888983]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[kolkata]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userSignUp -->
-        <test-method status="PASS" signature="userSignUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest@3b6eb2ec]" name="userSignUp" duration-ms="2043" started-at="2015-05-22T10:37:59Z" data-provider="SignUpUser" finished-at="2015-05-22T10:38:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[t112@t.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[YZ]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ABC]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[YZ]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[ABC]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[company]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[BBD Bag]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Airport]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[Kolkata]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[00000]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[9748888983]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[kolkata]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userSignUp -->
-        <test-method status="PASS" signature="signUser()[pri:0, instance:com.webtek.test.SanityTest@3b6eb2ec]" name="signUser" duration-ms="1033" started-at="2015-05-22T10:38:02Z" depends-on-methods="com.webtek.test.SanityTest.userSignUp" finished-at="2015-05-22T10:38:03Z">
-          <reporter-output>
+            <line>
+              <![CDATA[Click action is perfromed on My Account link]]>
+            </line>
+            <line>
+              <![CDATA[ entered in UserName text box]]>
+            </line>
+            <line>
+              <![CDATA[ entered in Password text box]]>
+            </line>
+            <line>
+              <![CDATA[Click action is performed on Submit button]]>
+            </line>
           </reporter-output>
         </test-method> <!-- signUser -->
       </class> <!-- com.webtek.test.SanityTest -->
     </test> <!-- Test in FF -->
-    <test name="TestSuite2" duration-ms="2183" started-at="2015-05-22T05:08:03Z" finished-at="2015-05-22T05:08:05Z">
-      <class name="com.webtek.test.SanityTest1">
-        <test-method status="PASS" signature="firstAddProductThenCheckOutWithSign()[pri:0, instance:com.webtek.test.SanityTest1@6bf256fa]" name="firstAddProductThenCheckOutWithSign" duration-ms="1142" started-at="2015-05-22T10:38:03Z" finished-at="2015-05-22T10:38:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstAddProductThenCheckOutWithSign -->
-        <test-method status="PASS" signature="verifyItemPresentInCartAndSummation()[pri:0, instance:com.webtek.test.SanityTest1@6bf256fa]" name="verifyItemPresentInCartAndSummation" duration-ms="1041" started-at="2015-05-22T10:38:04Z" finished-at="2015-05-22T10:38:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyItemPresentInCartAndSummation -->
-      </class> <!-- com.webtek.test.SanityTest1 -->
-    </test> <!-- TestSuite2 -->
-    <test name="TestSuite3" duration-ms="7099" started-at="2015-05-22T05:08:05Z" finished-at="2015-05-22T05:08:12Z">
-      <class name="com.webtek.test.SanityTest2">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.webtek.test.SanityTest2@5ebec15]" name="SetUp" is-config="true" duration-ms="17053" started-at="2015-05-22T10:37:11Z" finished-at="2015-05-22T10:37:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="FAIL" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@5ebec15]" name="contactUs" duration-ms="1004" started-at="2015-05-22T10:38:05Z" data-provider="contactUs" finished-at="2015-05-22T10:38:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Customer service]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sampletest1@mail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[order1]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[This is for a sample testing. Please do not consider ]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at com.webtek.action.ContactUsAction.execute(ContactUsAction.java:24)
-	at com.webtek.test.SanityTest2.contactUs(SanityTest2.java:19)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:362)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	... 36 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
-	... 51 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method status="FAIL" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@5ebec15]" name="contactUs" duration-ms="1010" started-at="2015-05-22T10:38:06Z" data-provider="contactUs" finished-at="2015-05-22T10:38:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Webmaster]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sampletest2@mail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[order2]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[This is for a sample testing. Please do not consider ]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at com.webtek.action.ContactUsAction.execute(ContactUsAction.java:24)
-	at com.webtek.test.SanityTest2.contactUs(SanityTest2.java:19)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:362)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	... 36 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
-	... 51 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method status="FAIL" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@5ebec15]" name="contactUs" duration-ms="1013" started-at="2015-05-22T10:38:07Z" data-provider="contactUs" finished-at="2015-05-22T10:38:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Customer service]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sampletest3@mail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[order3]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[This is for a sample testing. Please do not consider ]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at com.webtek.action.ContactUsAction.execute(ContactUsAction.java:24)
-	at com.webtek.test.SanityTest2.contactUs(SanityTest2.java:19)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:362)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	... 36 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
-	... 51 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method status="FAIL" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@5ebec15]" name="contactUs" duration-ms="1010" started-at="2015-05-22T10:38:08Z" data-provider="contactUs" finished-at="2015-05-22T10:38:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Webmaster]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sampletest4@mail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[order4]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[This is for a sample testing. Please do not consider ]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at com.webtek.action.ContactUsAction.execute(ContactUsAction.java:24)
-	at com.webtek.test.SanityTest2.contactUs(SanityTest2.java:19)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:362)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	... 36 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
-	... 51 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method status="FAIL" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@5ebec15]" name="contactUs" duration-ms="1010" started-at="2015-05-22T10:38:09Z" data-provider="contactUs" finished-at="2015-05-22T10:38:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Customer service]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sampletest5@mail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[order5]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[This is for a sample testing. Please do not consider ]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at com.webtek.action.ContactUsAction.execute(ContactUsAction.java:24)
-	at com.webtek.test.SanityTest2.contactUs(SanityTest2.java:19)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:362)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	... 36 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
-	... 51 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method status="FAIL" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@5ebec15]" name="contactUs" duration-ms="1010" started-at="2015-05-22T10:38:10Z" data-provider="contactUs" finished-at="2015-05-22T10:38:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Webmaster]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sampletest6@mail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[order6]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[This is for a sample testing. Please do not consider ]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at com.webtek.action.ContactUsAction.execute(ContactUsAction.java:24)
-	at com.webtek.test.SanityTest2.contactUs(SanityTest2.java:19)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:362)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	... 36 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
-	... 51 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method status="FAIL" signature="contactUs(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.webtek.test.SanityTest2@5ebec15]" name="contactUs" duration-ms="1012" started-at="2015-05-22T10:38:11Z" data-provider="contactUs" finished-at="2015-05-22T10:38:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Webmaster]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[sampletest6@mail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[order6]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[This is for a sample testing. Please do not consider ]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'Biswajit-PC', ip: '192.168.10.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:37)
-	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at com.webtek.action.ContactUsAction.execute(ContactUsAction.java:24)
-	at com.webtek.test.SanityTest2.contactUs(SanityTest2.java:19)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:483)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:126)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
-	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:362)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	... 36 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
-	... 51 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contactUs -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.webtek.test.SanityTest2@5ebec15]" name="tearDown" is-config="true" duration-ms="1011" started-at="2015-05-22T10:38:12Z" finished-at="2015-05-22T10:38:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.webtek.test.SanityTest2 -->
-    </test> <!-- TestSuite3 -->
   </suite> <!-- TestSuite1 -->
 </testng-results>

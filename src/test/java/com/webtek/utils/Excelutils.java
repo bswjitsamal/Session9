@@ -54,8 +54,8 @@ public class Excelutils {
 				dataStringBuffer.append(cellValue.toString() + "|");
 
 				data[row - 1][cell] = cellValue.toString();
-				System.out.println("The data are : Row :" + (row - 1) + "   Col: "
-						+ cell + "   : " + cellValue.toString());
+				System.out.println("The data are : Row :" + (row - 1)
+						+ "   Col: " + cell + "   : " + cellValue.toString());
 
 			}
 

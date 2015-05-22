@@ -22,9 +22,9 @@ public class ContactUsPage {
 
 	@FindBy(how = How.ID, using = "id_order")
 	public static WebElement idOrder;
-	
+
 	@FindBy(how = How.XPATH, using = ".//*[@class='clearfix']/div[2]/div/textarea")
-	public static WebElement message;	
+	public static WebElement message;
 
 	@FindBy(how = How.ID, using = "submitMessage")
 	public static WebElement submitMessage;

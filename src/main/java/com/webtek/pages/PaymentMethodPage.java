@@ -18,5 +18,4 @@ public class PaymentMethodPage {
 
 	@FindBy(how = How.CSS, using = ".bankwire")
 	public static WebElement payByBankWire;
-
 }

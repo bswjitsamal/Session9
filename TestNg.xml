@@ -5,10 +5,12 @@
 	<test name="Test in FF">
 		<classes>
 			<class name="com.webtek.test.SanityTest" />
+			<class name="com.webtek.test.SanityTest1" />
+			<class name="com.webtek.test.SanityTest2" />
 		</classes>
 	</test>
 
-	<test name="TestSuite2">
+	<!--  <test name="TestSuite2">
 		<classes>
 			<class name="com.webtek.test.SanityTest1" />
 		</classes>
@@ -19,6 +21,6 @@
 			<class name="com.webtek.test.SanityTest2" />
 		</classes>
 	</test>
-
+-->
 
 </suite>

@@ -6,19 +6,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 public class AddressDetailPage {
-	
 
-	
 	private WebDriver driver;
-	
-	public AddressDetailPage(WebDriver driver){
+
+	public AddressDetailPage(WebDriver driver) {
 		this.driver = driver;
 	}
-	
-	@FindBy(how=How.CSS,using="#center_column>form>p>button")
+
+	@FindBy(how = How.CSS, using = "#center_column>form>p>button")
 	public static WebElement proceedToCheckOutInAddressDetailPage;
-	
-
-
 
 }

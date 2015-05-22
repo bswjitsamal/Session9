@@ -7,8 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 public class HomePage {
-	
-
 
 	private WebDriver driver;
 
@@ -28,8 +26,8 @@ public class HomePage {
 
 	@FindBy(how = How.CSS, using = ".logo.img-responsive")
 	public static WebElement clickOnLogo;
-	
-	@FindBy(how= How.XPATH,using=".//*[@class='products']/dt[starts-with(@data-id,'cart_block_product_')]/div/span")
+
+	@FindBy(how = How.XPATH, using = ".//*[@class='products']/dt[starts-with(@data-id,'cart_block_product_')]/div/span")
 	public static WebElement priceOnCart;
 
 	public static class HeaderPage {
@@ -48,11 +46,11 @@ public class HomePage {
 
 		@FindBy(how = How.CSS, using = ".cart_block_product_name")
 		public static List<WebElement> productTitleInMiniCart;
-		
-		@FindBy(how=How.CSS,using="dt>div>.price")
+
+		@FindBy(how = How.CSS, using = "dt>div>.price")
 		public static List<WebElement> productPriceInMiniCart;
-		
-		@FindBy(how=How.CSS,using=".price.cart_block_total.ajax_block_cart_total")
+
+		@FindBy(how = How.CSS, using = ".price.cart_block_total.ajax_block_cart_total")
 		public static WebElement totalPrice;
 
 		public static class DressesPage {
@@ -130,7 +128,5 @@ public class HomePage {
 		public static WebElement closeWindow;
 
 	}
-
-
 
 }

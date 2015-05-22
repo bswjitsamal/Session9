@@ -7,7 +7,7 @@ import com.webtek.utils.Log;
 import com.webtek.pages.HomePage;
 import com.webtek.pages.LoginPage;
 
-public class SignInAction extends SelTestCase {
+public class SignInAction extends SignUpAction {
 
 	public static void execute() throws Exception {
 
@@ -23,6 +23,8 @@ public class SignInAction extends SelTestCase {
 		}
 
 		try {
+			String email = null;
+			email = SignUpAction.emailTest;
 			LoginPage.enterEmail.sendKeys(email);
 			Reporter.log(" entered in UserName text box");
 			Log.info(" entered in UserName text box");

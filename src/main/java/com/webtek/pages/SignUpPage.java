@@ -69,5 +69,5 @@ public class SignUpPage {
 
 	@FindBy(how = How.ID, using = "submitAccount")
 	public static WebElement register;
-
+	
 }

@@ -6,7 +6,7 @@
       <class name="com.webtek.test.SanityTest2">
         <methods>
           <include name="SetUp"/>
-          <include name="contactUs" invocation-numbers="6"/>
+          <include name="contactUs" invocation-numbers="7"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.webtek.test.SanityTest2 -->

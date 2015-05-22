@@ -36,16 +36,16 @@ public class Excelutils {
 			Cell cell = (Cell) iterator.next();
 			headerStringBuffer.append(cell + "|");
 		}
- 
+
 		System.out.println(headerStringBuffer);
 
-		int maxRowNum = hssfSheet.getLastRowNum() + 1;
+		int maxRowNum = hssfSheet.getLastRowNum();
 		int maxCellNum = headerRow.getLastCellNum();
 
 		data = new Object[maxRowNum][maxCellNum];
 		StringBuffer dataStringBuffer = new StringBuffer("WorkBook Data\n");
 
-		for (int row = 1; row < maxRowNum; row++) {
+		for (int row = 1; row <= maxRowNum; row++) {
 
 			dataStringBuffer.append("\n");
 			for (int cell = 0; cell < maxCellNum; cell++) {
@@ -54,11 +54,12 @@ public class Excelutils {
 				dataStringBuffer.append(cellValue.toString() + "|");
 
 				data[row - 1][cell] = cellValue.toString();
+				System.out.println("The data are : Row :" + (row - 1) + "   Col: "
+						+ cell + "   : " + cellValue.toString());
 
 			}
-		}
 
-		System.out.println(dataStringBuffer);
+		}
 		return data;
 
 	}

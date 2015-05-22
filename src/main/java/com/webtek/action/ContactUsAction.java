@@ -49,16 +49,41 @@ public class ContactUsAction extends SelTestCase {
 		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(e);
 
+		/**
+		 * ENTERING DATA IN FIELDS FORM EXCEL FILE
+		 */
+
 		Select select = new Select(ContactUsPage.subjectHeading);
 		select.selectByVisibleText(DATA);
 
-		ContactUsPage.email.sendKeys(CUSTOMEREMAIL);
+		try {
+			ContactUsPage.email.sendKeys(CUSTOMEREMAIL);
+			Log.info("Customer Email text box element is found");
+		} catch (Exception e1) {
+			Log.info("Customer Email text box element is not found");
 
-		ContactUsPage.idOrder.sendKeys(ORDER);
+		}
 
-		ContactUsPage.message.sendKeys(MESSAGE);
+		try {
+			ContactUsPage.idOrder.sendKeys(ORDER);
+			Log.info("Order text box element is found");
+		} catch (Exception e1) {
+			Log.info("Order text box element is not found");
+		}
 
-		ContactUsPage.submitMessage.click();
+		try {
+			ContactUsPage.message.sendKeys(MESSAGE);
+			Log.info("Message text are element is found");
+		} catch (Exception e1) {
+			Log.info("Message text are element is not found");
+		}
+
+		try {
+			ContactUsPage.submitMessage.click();
+			Log.info("Sumbit button element is found");
+		} catch (Exception e1) {
+			Log.info("Sumbit button element is not found");
+		}
 
 	}
 

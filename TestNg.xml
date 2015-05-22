@@ -14,7 +14,7 @@
 		</classes>
 	</test>
 	
-	<test name="TestSuite2">
+	<test name="TestSuite3">
 		<classes>
 			<class name="com.webtek.test.SanityTest2" />
 		</classes>

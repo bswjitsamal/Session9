@@ -51,7 +51,6 @@ public class SanityTest1 extends SelTestCase {
 
 		try {
 			SelectedItemOnCartAction.execute();
-			Log.endTestCase("THIS IS AN END");
 			Log.info("SelectedItemOnCartAction done successfully");
 		} catch (Exception e) {
 			Log.info("SelectedItemOnCartAction not done successfully ");

@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="TestSuite1" verbose="3">
 
-	<test name="Test in FF">
+<suite name="Suite" parallel="tests">
+
+	<test name="FirefoxTest">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<!-- <class name="com.webtek.test.SanityTest" />
+			<class name="com.webtek.test.SanityTest1" /> -->
+			<class name="com.webtek.test.SanityTest2" />
+		</classes>
+	</test>
+
+<!--  	<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.webtek.test.SanityTest" />
 			<class name="com.webtek.test.SanityTest1" />
 			<class name="com.webtek.test.SanityTest2" />
 		</classes>
-	</test>
+	</test>-->
 
-	<!--  <test name="TestSuite2">
+	<test name="IETest">
+		<parameter name="browser" value="ie" />
 		<classes>
-			<class name="com.webtek.test.SanityTest1" />
-		</classes>
-	</test>
-	
-	<test name="TestSuite3">
-		<classes>
+			<!--  <class name="com.webtek.test.SanityTest" />
+			<class name="com.webtek.test.SanityTest1" />-->
 			<class name="com.webtek.test.SanityTest2" />
 		</classes>
 	</test>
--->
-
 </suite>

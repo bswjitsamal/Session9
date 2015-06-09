@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Fri May 22 15:55:03 IST 2015</td>
+<td>Started on:</td><td>Mon Jun 08 15:03:24 IST 2015</td>
 </tr>
-<tr><td>Total time:</td><td>71 seconds (71134 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (30 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,42 +67,76 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.webtek.test.SanityTest.signUser()'><b>signUser</b><br>Test class: com.webtek.test.SanityTest<br/>
-<a href="#Output-1561502550" onClick='toggleBox("Output-1561502550", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1561502550" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1561502550">
-Click action is perfromed on My Account link<br/>
- entered in UserName text box<br/>
- entered in Password text box<br/>
-Click action is performed on Submit button<br/>
-</div>
-</td>
-<td></td>
-<td>6</td>
-<td>com.webtek.test.SanityTest@ea4a92b</td></tr>
+<td title='com.webtek.test.CompareProductTes.SetUp()'><b>SetUp</b><br>Test class: com.webtek.test.CompareProductTes</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by @Configuration on method SetUp but has not been marked @Optional or defined
+in C:\Users\Biswajit\AppData\Local\Temp\testng-eclipse-806270726\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div><a href='#' onClick='toggleBox("stack-trace940553268", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace940553268'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by @Configuration on method SetUp but has not been marked @Optional or defined
+in C:\Users\Biswajit\AppData\Local\Temp\testng-eclipse-806270726\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='com.webtek.test.SanityTest.userSignUp()'><b>userSignUp</b><br>Test class: com.webtek.test.SanityTest<br>Parameters: t321@t.com, ABC, DEF, password, ABC, DEF, company, Kalikapur, Ruby, kolkata, 00000, 9748888983, kolkata<br/>
-<a href="#Output-1370283822" onClick='toggleBox("Output-1370283822", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1370283822" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1370283822">
-Clicking on SignIn link<br/>
-Entering an email to register<br/>
-Clicking on Register button<br/>
-</div>
-</td>
+<td title='com.webtek.test.CompareProductTes.compareTwoProductPrice()'><b>compareTwoProductPrice</b><br>Test class: com.webtek.test.CompareProductTes</td>
 <td></td>
-<td>64</td>
-<td>com.webtek.test.SanityTest@ea4a92b</td></tr>
+<td>0</td>
+<td>com.webtek.test.CompareProductTes@d7b1517</td></tr>
 </table><p>
 </body>
 </html>

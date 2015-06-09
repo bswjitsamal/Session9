@@ -35,11 +35,20 @@ public class HomePage {
 		@FindBy(how = How.LINK_TEXT, using = "Women")
 		public static WebElement menu_women;
 
-		@FindBy(how = How.XPATH, using = "//*a[@title='Dresses']")
+		@FindBy(how = How.XPATH, using = ".//*[@id='block_top_menu']/ul/li[2]/a")
 		public static WebElement menu_dresses;
 
-		@FindBy(how = How.XPATH, using = "//*a[@title='T-shirts']")
+		@FindBy(how = How.XPATH, using = ".//*[@id='block_top_menu']/ul/li[3]/a")
 		public static WebElement menu_tshirts;
+		
+		@FindBy(how = How.CSS, using = "#block_top_menu>ul>li:nth-of-type(2)>ul>li:nth-of-type(3)>a")
+		public static WebElement subMenuSummerDress;
+
+		@FindBy(how = How.CSS, using = "#block_top_menu>ul>li:nth-of-type(2)>ul>li:nth-of-type(2)>a")
+		public static WebElement subMenuEveningDress;
+
+		@FindBy(how = How.CSS, using = "#block_top_menu>ul>li:nth-of-type(2)>ul>li:nth-of-type(1)>a")
+		public static WebElement subMenuCasualDress;
 
 		@FindBy(how = How.CSS, using = ".shopping_cart>a")
 		public static WebElement moveToCart;
@@ -57,6 +66,8 @@ public class HomePage {
 
 			@FindBy(how = How.XPATH, using = "//*a[@title='Summer Dresses']")
 			public static WebElement summer_dresses;
+			
+			
 
 		}
 

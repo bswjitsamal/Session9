@@ -17,6 +17,11 @@ public class DashBoardPage {
 	public static WebElement mainManu;
 
 	@FindBy(how = How.CSS, using = "#block_top_menu>ul>li:nth-of-type(2)>ul>li:nth-of-type(3)>a")
-	public static WebElement subMenu;
+	public static WebElement subMenuSummerDress;
+	
+	@FindBy(how = How.CSS, using = "#block_top_menu>ul>li:nth-of-type(2)>ul>li:nth-of-type(2)>a")
+	public static WebElement subMenuEveningDress;
 
+	@FindBy(how = How.CSS, using = "#block_top_menu>ul>li:nth-of-type(2)>ul>li:nth-of-type(1)>a")
+	public static WebElement subMenuCasualDress;
 }

@@ -26,7 +26,7 @@ public class PurcheseAction extends SelTestCase {
 		try {
 			Actions action = new Actions(driver);
 			WebElement mainMenu = DashBoardPage.mainManu;
-			action.moveToElement(mainMenu).moveToElement(DashBoardPage.subMenu)
+			action.moveToElement(mainMenu).moveToElement(DashBoardPage.subMenuSummerDress)
 					.click().build().perform();
 			Log.info("Moving to product listing page by clicking on the submenu");
 		} catch (Exception e) {

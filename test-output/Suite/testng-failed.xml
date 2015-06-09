@@ -8,10 +8,14 @@
       <class name="com.webtek.test.SanityTest2">
         <methods>
           <include name="SetUp"/>
-          <include name="SetUp"/>
           <include name="contactUs"/>
         </methods>
       </class> <!-- com.webtek.test.SanityTest2 -->
+      <class name="com.webtek.test.CompareProductTes">
+        <methods>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.webtek.test.CompareProductTes -->
     </classes>
   </test> <!-- IETest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

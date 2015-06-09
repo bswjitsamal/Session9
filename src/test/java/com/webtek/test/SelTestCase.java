@@ -42,7 +42,7 @@ public class SelTestCase {
 			try {
 				Log.info("Executing on Firefox");
 				System.out.println("Executing on Firefox");
-				String Node = "http://192.168.10.148:7777/wd/hub";
+				String Node = "http://192.168.10.148:5555/wd/hub";
 				DesiredCapabilities cap = DesiredCapabilities.firefox();
 				cap.setBrowserName("firefox");
 

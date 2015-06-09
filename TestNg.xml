@@ -7,8 +7,9 @@
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<!-- <class name="com.webtek.test.SanityTest" />
-			<class name="com.webtek.test.SanityTest1" /> -->
-			<class name="com.webtek.test.SanityTest2" />
+			<class name="com.webtek.test.SanityTest1" /> 
+			<class name="com.webtek.test.SanityTest2" />-->
+			<class name="com.webtek.test.CompareProductTes" />
 		</classes>
 	</test>
 
@@ -25,8 +26,8 @@
 		<parameter name="browser" value="ie" />
 		<classes>
 			<!--  <class name="com.webtek.test.SanityTest" />
-			<class name="com.webtek.test.SanityTest1" />-->
-			<class name="com.webtek.test.SanityTest2" />
+			<class name="com.webtek.test.SanityTest1" />
+			<class name="com.webtek.test.SanityTest2" />-->
 		</classes>
 	</test>
 </suite>

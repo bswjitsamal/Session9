@@ -22,4 +22,10 @@ public class ProductPage {
 	@FindBy(how = How.CSS, using = "#layer_cart>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(4)>a>span")
 	public static WebElement proceedToCheckOut;
 
+	@FindBy(how = How.CSS, using = ".add_to_compare")
+	public static WebElement addToCompare;
+	
+	@FindBy(how=How.CSS,using = ".btn.btn-default.button.button-medium.bt_compare.bt_compare_bottom")
+	public static WebElement compareButton;
+
 }

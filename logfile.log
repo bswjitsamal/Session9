@@ -1365,3 +1365,105 @@
 2015-06-05 13:50:03,873 INFO  [Log] ContactUsAction not done successfully 
 2015-06-05 13:50:04,038 INFO  [Log] ContactUsAction not done successfully 
 2015-06-05 13:50:04,241 INFO  [Log] closing browser is not happening 
+2015-06-05 17:02:01,951 INFO  [Log] Executing on Firefox 
+2015-06-05 17:02:01,951 INFO  [Log] Executing on IE 
+2015-06-05 17:02:20,503 INFO  [Log] Openign the browser with the given URL 
+2015-06-05 17:02:21,068 INFO  [Log] We are in contact us page 
+2015-06-05 17:02:23,177 INFO  [Log] We are in contact us page 
+2015-06-05 17:04:05,827 INFO  [Log] Customer Email text box element is found 
+2015-06-05 17:05:46,509 INFO  [Log] Customer Email text box element is found 
+2015-06-05 17:06:17,112 INFO  [Log] Order text box element is found 
+2015-06-05 17:06:47,682 INFO  [Log] Order text box element is found 
+2015-06-05 17:11:13,683 INFO  [Log] Message text are element is found 
+2015-06-05 17:15:39,647 INFO  [Log] Message text are element is found 
+2015-06-05 17:15:43,282 INFO  [Log] Sumbit button element is found 
+2015-06-05 17:15:43,282 INFO  [Log] ContactUsAction done successfully 
+2015-06-05 17:15:43,282 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:15:43,282 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:15:43,282 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-06-05 17:15:43,282 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:15:43,282 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:15:45,602 INFO  [Log] Sumbit button element is found 
+2015-06-05 17:15:45,603 INFO  [Log] ContactUsAction done successfully 
+2015-06-05 17:15:45,603 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:15:45,603 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:15:45,603 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-06-05 17:15:45,603 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:15:45,603 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:15:46,610 INFO  [Log] ContactUsAction not done successfully 
+2015-06-05 17:15:48,408 INFO  [Log] We are in contact us page 
+2015-06-05 17:15:50,965 INFO  [Log] We are in contact us page 
+2015-06-05 17:17:33,780 INFO  [Log] Customer Email text box element is found 
+2015-06-05 17:19:14,577 INFO  [Log] Customer Email text box element is found 
+2015-06-05 17:19:45,056 INFO  [Log] Order text box element is found 
+2015-06-05 17:20:15,631 INFO  [Log] Order text box element is found 
+2015-06-05 17:24:41,388 INFO  [Log] Message text are element is found 
+2015-06-05 17:29:07,307 INFO  [Log] Message text are element is found 
+2015-06-05 17:29:09,475 INFO  [Log] Sumbit button element is found 
+2015-06-05 17:29:09,476 INFO  [Log] ContactUsAction done successfully 
+2015-06-05 17:29:09,476 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:29:09,476 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:29:09,476 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-06-05 17:29:09,476 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:29:09,476 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:29:11,682 INFO  [Log] Sumbit button element is found 
+2015-06-05 17:29:11,682 INFO  [Log] ContactUsAction done successfully 
+2015-06-05 17:29:11,682 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:29:11,682 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:29:11,682 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-06-05 17:29:11,682 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:29:11,682 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:29:11,955 INFO  [Log] ContactUsAction not done successfully 
+2015-06-05 17:29:13,988 INFO  [Log] We are in contact us page 
+2015-06-05 17:29:13,992 INFO  [Log] ContactUsAction not done successfully 
+2015-06-05 17:29:16,185 INFO  [Log] We are in contact us page 
+2015-06-05 17:29:16,204 INFO  [Log] ContactUsAction not done successfully 
+2015-06-05 17:29:18,270 INFO  [Log] We are in contact us page 
+2015-06-05 17:29:18,312 INFO  [Log] ContactUsAction not done successfully 
+2015-06-05 17:29:20,414 INFO  [Log] We are in contact us page 
+2015-06-05 17:29:20,415 INFO  [Log] ContactUsAction not done successfully 
+2015-06-05 17:29:22,577 INFO  [Log] ContactUsAction not done successfully 
+2015-06-05 17:29:22,579 INFO  [Log] We are in contact us page 
+2015-06-05 17:29:24,768 INFO  [Log] We are in contact us page 
+2015-06-05 17:29:24,782 INFO  [Log] ContactUsAction not done successfully 
+2015-06-05 17:29:26,925 INFO  [Log] We are in contact us page 
+2015-06-05 17:29:26,942 INFO  [Log] ContactUsAction not done successfully 
+2015-06-05 17:31:08,752 INFO  [Log] Customer Email text box element is found 
+2015-06-05 17:31:39,350 INFO  [Log] Order text box element is found 
+2015-06-05 17:36:05,213 INFO  [Log] Message text are element is found 
+2015-06-05 17:36:08,105 INFO  [Log] Sumbit button element is found 
+2015-06-05 17:36:08,105 INFO  [Log] ContactUsAction done successfully 
+2015-06-05 17:36:08,105 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:36:08,105 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:36:08,105 INFO  [Log] $$$$$$$$$$$$$$$$$$             E------N------D                $$$$$$$$$$$$$$$$$$$ 
+2015-06-05 17:36:08,105 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:36:08,105 INFO  [Log] **************************************************************************************** 
+2015-06-05 17:36:29,942 INFO  [Log] Closing the browser 
+2015-06-09 16:54:00,111 INFO  [Log] Executing on Firefox 
+2015-06-09 16:54:00,111 INFO  [Log] Executing on IE 
+2015-06-09 16:54:01,713 INFO  [Log] Opening browser is not happening 
+2015-06-09 16:54:01,743 INFO  [Log] Opening browser is not happening 
+2015-06-09 16:54:23,253 INFO  [Log] Executing on IE 
+2015-06-09 16:54:23,253 INFO  [Log] Executing on Firefox 
+2015-06-09 16:54:24,678 INFO  [Log] Opening browser is not happening 
+2015-06-09 16:54:36,957 INFO  [Log] Openign the browser with the given URL 
+2015-06-09 16:54:38,277 INFO  [Log] Navigation in between menu element is not found 
+2015-06-09 16:56:15,103 INFO  [Log] Executing on Firefox 
+2015-06-09 16:56:28,017 INFO  [Log] Openign the browser with the given URL 
+2015-06-09 16:56:28,671 INFO  [Log] Navigation in between menu element is not found 
+2015-06-09 16:56:32,225 INFO  [Log] Closing the browser 
+2015-06-09 16:58:38,535 INFO  [Log] Executing on Firefox 
+2015-06-09 16:58:53,633 INFO  [Log] Openign the browser with the given URL 
+2015-06-09 16:58:54,259 INFO  [Log] Navigation in between menu element is not found 
+2015-06-09 16:58:57,465 INFO  [Log] Closing the browser 
+2015-06-09 17:00:10,120 INFO  [Log] Executing on Firefox 
+2015-06-09 17:00:22,807 INFO  [Log] Openign the browser with the given URL 
+2015-06-09 17:00:23,404 INFO  [Log] Navigation in between menu element is not found 
+2015-06-09 17:00:26,602 INFO  [Log] Closing the browser 
+2015-06-09 17:06:22,614 INFO  [Log] Executing on Firefox 
+2015-06-09 17:06:36,835 INFO  [Log] Openign the browser with the given URL 
+2015-06-09 17:06:37,657 INFO  [Log] Moving to product listing page by clicking on the submenu 
+2015-06-09 17:06:40,961 INFO  [Log] Adding a product to compare done successfully 
+2015-06-09 17:06:42,387 INFO  [Log] Moving to product listing page by clicking on the submenu 
+2015-06-09 17:06:45,063 INFO  [Log] Adding a product to compare done successfully 
+2015-06-09 17:06:52,133 INFO  [Log] Closing the browser 

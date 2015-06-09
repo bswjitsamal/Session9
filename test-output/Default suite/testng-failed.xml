@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.webtek.test.SanityTest2">
+      <class name="com.webtek.test.CompareProductTes">
         <methods>
-          <include name="SetUp"/>
-          <include name="contactUs" invocation-numbers="7"/>
-          <include name="tearDown"/>
+          <include name="compareTwoProductPrice"/>
         </methods>
-      </class> <!-- com.webtek.test.SanityTest2 -->
+      </class> <!-- com.webtek.test.CompareProductTes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

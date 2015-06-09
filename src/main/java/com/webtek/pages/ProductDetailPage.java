@@ -49,4 +49,5 @@ public class ProductDetailPage {
 	@FindBy(how = How.CSS, using = ".btn.btn-default.button.button-medium>span")
 	public static WebElement proceedToChekOutInProductDetailPage;
 
+	
 }
